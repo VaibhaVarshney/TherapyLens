@@ -1,0 +1,19 @@
+# Virtual environment
+nlp_venv/
+venv/
+
+# Environment / secrets
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Data & outputs (large/generated files)
+data/sessions.json
+outputs/
+
+# OS
+.DS_Store
+Thumbs.db
