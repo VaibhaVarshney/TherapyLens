@@ -11,6 +11,7 @@ import json
 import csv
 from groq import Groq
 from dotenv import load_dotenv
+import time
 
 load_dotenv()
 sys.path.insert(0, os.path.dirname(__file__))
@@ -47,7 +48,7 @@ def main():
     print("[4/5] Running LLM synthesis...")
     groq_client = Groq(api_key=os.environ["GROQ_API_KEY"])
     synthesis_results = []
-    for session in sessions:
+    for i, session in enumerate(sessions):
         sid = session.session_id
         result = synthesize_session(
             session,
@@ -60,6 +61,9 @@ def main():
         result["patient_id"] = session.patient_id
         result["cohort"] = session.cohort
         synthesis_results.append(result)
+        print(f"    [{i+1}/{len(sessions)}] session {sid} synthesized")
+        time.sleep(2)  # ← stays under Groq free tier rate limit
+
     print(f"    {len(synthesis_results)} sessions synthesized.\n")
 
     # 5. Bias audit

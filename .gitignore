@@ -12,7 +12,6 @@ __pycache__/
 
 # Data & outputs (large/generated files)
 data/sessions.json
-outputs/
 
 # OS
 .DS_Store

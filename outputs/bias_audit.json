@@ -1,0 +1,55 @@
+{
+  "cohort_summary": {
+    "veteran": {
+      "n_sessions": 46,
+      "mean_sentiment": -0.4014,
+      "mean_emotions": {
+        "anxiety": 0.176,
+        "sadness": 0.0596,
+        "depression": 0.0426,
+        "progress": 0.118,
+        "neutral": 0.6038
+      },
+      "dominant_emotion": "neutral"
+    },
+    "teen": {
+      "n_sessions": 29,
+      "mean_sentiment": -0.2874,
+      "mean_emotions": {
+        "anxiety": 0.0955,
+        "sadness": 0.0548,
+        "depression": 0.0547,
+        "progress": 0.1252,
+        "neutral": 0.6699
+      },
+      "dominant_emotion": "neutral"
+    },
+    "postpartum": {
+      "n_sessions": 59,
+      "mean_sentiment": -0.2718,
+      "mean_emotions": {
+        "anxiety": 0.0814,
+        "sadness": 0.0852,
+        "depression": 0.0957,
+        "progress": 0.1619,
+        "neutral": 0.5758
+      },
+      "dominant_emotion": "neutral"
+    },
+    "adult_general": {
+      "n_sessions": 24,
+      "mean_sentiment": -0.2292,
+      "mean_emotions": {
+        "anxiety": 0.1192,
+        "sadness": 0.0455,
+        "depression": 0.0307,
+        "progress": 0.0873,
+        "neutral": 0.7173
+      },
+      "dominant_emotion": "neutral"
+    }
+  },
+  "disparity_flags": [
+    "Sentiment gap between veteran and adult_general: 0.172 (threshold=0.15) \u2014 warrants review"
+  ]
+}

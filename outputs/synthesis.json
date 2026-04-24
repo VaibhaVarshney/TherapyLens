@@ -1,0 +1,2009 @@
+[
+  {
+    "session_summary": "The patient initiated their first therapy session with a neutral tone, discussing attempts to manage anxiety through breathing exercises and social support. They expressed some positive experiences, such as spending time with family and reading. Despite these efforts, the patient's high PHQ-9 score and neutral sentiment suggest ongoing distress.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "exploring and enhancing social support networks",
+    "notable_linguistic_patterns": [
+      "repetition of phrases indicating difficulty in articulating emotions",
+      "frequent use of transitional phrases to shift between topics"
+    ],
+    "session_id": 1,
+    "patient_id": "P001",
+    "cohort": "veteran"
+  },
+  {
+    "session_summary": "The patient is struggling with sleep fatigue and disconnection from others, reporting difficulty getting out of bed and canceling plans due to low energy. The patient's overall sentiment is negative, with a sentiment score of -1.0, indicating a significant level of distress. The patient's severity score of 12/27 suggests moderate symptoms of depression.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "Building social connections and improving sleep hygiene",
+    "notable_linguistic_patterns": [
+      "repetition of struggles with getting out of bed",
+      "avoidance of social interactions due to low energy"
+    ],
+    "session_id": 2,
+    "patient_id": "P001",
+    "cohort": "veteran"
+  },
+  {
+    "session_summary": "The patient reports feeling disconnected from others and a lack of energy, leading to canceled plans and diminished joy in activities. They express a sense of pointlessness and disconnection, with a notable absence of positive emotional expression. The patient's neutral dominant emotion and low sentiment score suggest a high level of emotional distress.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "high",
+    "recommended_focus": "exploring and addressing the patient's feelings of disconnection and pointlessness",
+    "notable_linguistic_patterns": [
+      "repeated expressions of disconnection and isolation",
+      "absence of positive emotional language"
+    ],
+    "session_id": 3,
+    "patient_id": "P001",
+    "cohort": "veteran"
+  },
+  {
+    "session_summary": "The patient presented with pronounced sadness and a lack of motivation, expressing feelings of disconnection and joylessness in activities they once enjoyed. Their PHQ-9 proxy score of 15 indicates moderate to severe depressive symptoms. The patient's language suggests a sense of hopelessness and difficulty in finding meaning or pleasure in daily life.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "exploring and addressing the patient's loss of joy and meaning in activities",
+    "notable_linguistic_patterns": [
+      "repetition of phrases indicating hopelessness (e.g., 'I just don't see the point in a lot of things anymore')",
+      "use of absolute language (e.g., 'nothing really brings me joy')"
+    ],
+    "session_id": 4,
+    "patient_id": "P002",
+    "cohort": "teen"
+  },
+  {
+    "session_summary": "The patient reports feeling overwhelmed and struggling with work-related stress, with a dominant neutral emotion and negative sentiment score. They express difficulty in managing anxiety about future events, such as an upcoming meeting. The patient's lexical diversity and average words per turn are relatively low, indicating potential guardedness or difficulty articulating emotions.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "cognitive restructuring to address anticipatory anxiety",
+    "notable_linguistic_patterns": [
+      "repetition of 'feeling overwhelmed' phrase",
+      "use of physiological anxiety symptoms (e.g., 'heart races')"
+    ],
+    "session_id": 5,
+    "patient_id": "P002",
+    "cohort": "teen"
+  },
+  {
+    "session_summary": "Could not parse LLM response.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "General support",
+    "notable_linguistic_patterns": [],
+    "session_id": 6,
+    "patient_id": "P003",
+    "cohort": "postpartum"
+  },
+  {
+    "session_summary": "The patient appears to be struggling with feelings of disconnection and low energy, which are impacting their social interactions and daily life. Their work stress is a primary concern, but they are having difficulty articulating their emotions and thoughts. The patient's neutral dominant emotion and low sentiment score suggest a potential for underlying emotional distress.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "exploring emotional awareness and regulation",
+    "notable_linguistic_patterns": [
+      "avoidance of emotional language",
+      "high frequency of vague statements (e.g., 'taking things day by day')"
+    ],
+    "session_id": 7,
+    "patient_id": "P003",
+    "cohort": "postpartum"
+  },
+  {
+    "session_summary": "The patient is experiencing feelings of overwhelm and uncertainty, particularly related to work stress, with a neutral dominant emotion and a negative sentiment score. The patient's lexical diversity and average words per turn suggest some constraint in their expression. The session touched on the patient's anxiety about an upcoming meeting and their coping mechanisms, such as reading.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "exploring and reframing unrealistic expectations and self-imposed pressures",
+    "notable_linguistic_patterns": [
+      "repeated phrases indicating uncertainty and overwhelm",
+      "self-questioning and reflection on thoughts and emotions"
+    ],
+    "session_id": 8,
+    "patient_id": "P003",
+    "cohort": "postpartum"
+  },
+  {
+    "session_summary": "The patient is experiencing persistent sadness and a lack of joy in activities, with a sentiment score of -1.0, indicating a strong negative emotional state. The patient's self-worth is a primary topic, and they express feeling hopeless about many things. The patient's average words per turn and lexical diversity suggest a limited range of expression.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "exploring and addressing negative self-talk and self-worth",
+    "notable_linguistic_patterns": [
+      "repetition of negative phrases",
+      "lack of positive affect words"
+    ],
+    "session_id": 9,
+    "patient_id": "P003",
+    "cohort": "postpartum"
+  },
+  {
+    "session_summary": "The patient reported a busy work schedule and acknowledged taking things day by day, showing some progress in coping skills and emotional regulation. They shared a positive experience discussing their feelings with their sister, indicating a willingness to open up. The patient's overall sentiment was mildly positive, with a sentiment score of 0.6.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "exploring self-compassion and challenging negative self-talk",
+    "notable_linguistic_patterns": [
+      "repetition of phrases indicating self-encouragement (e.g., 'It takes courage to try something new')",
+      "use of present-focused language (e.g., 'I've just been taking things day by day')"
+    ],
+    "session_id": 10,
+    "patient_id": "P004",
+    "cohort": "veteran"
+  },
+  {
+    "session_summary": "The patient reports feeling overwhelmed and struggling with sleep, with a sense of uncertainty and difficulty concentrating. The patient's severity score of 17/27 indicates moderate to severe depressive symptoms. The patient's neutral dominant emotion and low sentiment score suggest a subdued emotional state.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "sleep hygiene and stress management",
+    "notable_linguistic_patterns": [
+      "repetition of feelings of overwhelm",
+      "difficulty articulating specific thoughts or emotions"
+    ],
+    "session_id": 11,
+    "patient_id": "P004",
+    "cohort": "veteran"
+  },
+  {
+    "session_summary": "The patient presents with symptoms of depression, including lack of energy, disconnection from others, and anhedonia, as evidenced by their struggle to find the point in activities and difficulty getting out of bed. The patient's neutral dominant emotion and negative sentiment score suggest a need for further exploration of their emotional state. The patient's recent efforts to engage in activities, such as reading and spending time with family, may indicate a potential for positive change.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "exploring and addressing the patient's feelings of disconnection and anhedonia",
+    "notable_linguistic_patterns": [
+      "frequent use of negative self-talk",
+      "lack of emotional expression despite discussing distressing topics"
+    ],
+    "session_id": 12,
+    "patient_id": "P005",
+    "cohort": "teen"
+  },
+  {
+    "session_summary": "The patient reported feeling disconnected and experiencing a lack of joy in activities, with a neutral dominant emotion and a negative sentiment score. They discussed feeling pressure and being disconnected from others, indicating potential social and emotional struggles. The patient's severity score of 22/27 suggests moderate to severe depressive symptoms.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "exploring and addressing social connections and relationships",
+    "notable_linguistic_patterns": [
+      "repetition of phrases indicating emotional numbness (e.g., 'nothing really brings me joy the way it used to')",
+      "use of phrases suggesting avoidance or emotional disconnection (e.g., 'I've just been taking things day by day')"
+    ],
+    "session_id": 13,
+    "patient_id": "P005",
+    "cohort": "teen"
+  },
+  {
+    "session_summary": "The patient reports a slight improvement in their mood, attributing it to increased reading and social support from their sister. They express a sense of coping by taking things day by day. The patient's lexical diversity and average words per turn are relatively low, suggesting potential difficulty with emotional expression.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "exploring and expanding emotional expression",
+    "notable_linguistic_patterns": [
+      "repeated phrases indicating coping mechanisms",
+      "lack of vivid emotional descriptors"
+    ],
+    "session_id": 14,
+    "patient_id": "P005",
+    "cohort": "teen"
+  },
+  {
+    "session_summary": "The patient reports a sense of progress and notes that work has been busy but not unusual, indicating some stability in their environment. They demonstrate self-awareness by recognizing their anxiety and the use of the word 'should', which may indicate internal pressure. The patient's sentiment score and average words per turn suggest a cautiously optimistic tone.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "exploring the source of internal pressure and 'should' statements",
+    "notable_linguistic_patterns": [
+      "repetition of phrases for emphasis",
+      "use of self-reflective language"
+    ],
+    "session_id": 15,
+    "patient_id": "P005",
+    "cohort": "teen"
+  },
+  {
+    "session_summary": "The patient, a postpartum individual with a severity score of 20/27, reports taking things day by day and experiences work stress, but expresses a neutral dominant emotion and a sentiment score of 0.0. The patient's lexical diversity is relatively low at 0.431. The patient engages in brief turns with an average of 7.71 words per turn.",
+    "engagement_level": "low",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "exploring the patient's work stress and its impact on their mental health",
+    "notable_linguistic_patterns": [
+      "repeated phrases indicating potential avoidance or evasion",
+      "low lexical diversity suggesting possible emotional repression or constriction"
+    ],
+    "session_id": 16,
+    "patient_id": "P006",
+    "cohort": "postpartum"
+  },
+  {
+    "session_summary": "The patient reports feeling disconnected from others and struggling to find meaning, with a dominant neutral emotion and negative sentiment score, indicating potential underlying distress. The patient's lexical diversity and average words per turn suggest a somewhat restricted range of expression. The patient's severity score of 20/27 on the PHQ-9 proxy indicates moderate to severe depressive symptoms.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "exploring and addressing social disconnection and loss of meaning",
+    "notable_linguistic_patterns": [
+      "reduced lexical diversity",
+      "increased use of phrases indicating disconnection and isolation"
+    ],
+    "session_id": 17,
+    "patient_id": "P006",
+    "cohort": "postpartum"
+  },
+  {
+    "session_summary": "The patient discusses reading as a positive activity, but also expresses anxiety about an upcoming meeting, indicating some coping mechanisms but also significant stress. The patient's emotional expression is neutral, and their sentiment score is 0.0, suggesting a lack of strong emotional intensity. The patient's average words per turn and lexical diversity are relatively low, suggesting potential difficulties with emotional expression or articulation.",
+    "engagement_level": "low",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "exploring and addressing work-related stress and anxiety",
+    "notable_linguistic_patterns": [
+      "repetition of phrases (e.g., 'I've been reading more, which has been nice')",
+      "avoidance of direct emotional expression"
+    ],
+    "session_id": 18,
+    "patient_id": "P006",
+    "cohort": "postpartum"
+  },
+  {
+    "session_summary": "The patient expresses feelings of disconnection from others and struggles with work stress, but also reports some positive activities like reading and spending time with family. The patient's dominant emotion is neutral, but the sentiment score is negative, indicating a potentially underlying distress. The patient's severity score is 14, suggesting moderate symptoms of depression.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "exploring social connections and support systems",
+    "notable_linguistic_patterns": [
+      "repetition of 'it takes courage to try something new' phrase",
+      "difficulty articulating emotions beyond neutral tone"
+    ],
+    "session_id": 19,
+    "patient_id": "P006",
+    "cohort": "postpartum"
+  },
+  {
+    "session_summary": "The patient reported struggling to find motivation and purpose, with difficulty getting out of bed and a sense of pointlessness in activities. They did mention spending time with family, but the overall sentiment remained negative. The patient's severity score and linguistic patterns suggest ongoing postpartum distress.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "motivation and purpose rebuilding",
+    "notable_linguistic_patterns": [
+      "repetition of statements",
+      "lack of emotional expression despite negative sentiment"
+    ],
+    "session_id": 20,
+    "patient_id": "P006",
+    "cohort": "postpartum"
+  },
+  {
+    "session_summary": "The patient reports feeling apathetic and disconnected from previously enjoyable activities, with a notable lack of joy in their daily life. The patient's severity score of 21/27 indicates a high level of depressive symptoms. The therapeutic conversation remains neutral, with the patient sharing their struggles and the therapist providing supportive and exploratory responses.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "high",
+    "recommended_focus": "increasing pleasure and engagement in activities",
+    "notable_linguistic_patterns": [
+      "repetition of negative statements",
+      "low lexical diversity indicating potential cognitive or emotional constriction"
+    ],
+    "session_id": 21,
+    "patient_id": "P006",
+    "cohort": "postpartum"
+  },
+  {
+    "session_summary": "The patient, a postpartum individual with a moderate severity score, exhibited a neutral dominant emotion and expressed feelings of anxiety, but also reported positive interactions with family and a sense of things feeling 'a little lighter' this week. The patient demonstrated some self-awareness and reflection on their emotions and behaviors. The session primarily focused on social support and exploring the patient's thoughts and feelings.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "exploring sources of anxiety and pressure",
+    "notable_linguistic_patterns": [
+      "frequent use of the word 'should', indicating potential self-imposed pressure or obligation",
+      "reported positive social interactions, suggesting a strong support system"
+    ],
+    "session_id": 22,
+    "patient_id": "P007",
+    "cohort": "postpartum"
+  },
+  {
+    "session_summary": "The patient is experiencing a lack of joy and energy, struggling with sleep and fatigue, and having difficulty getting out of bed, with a PHQ-9 proxy score of 14 indicating moderate depressive symptoms. The patient's lexical diversity and average words per turn suggest a neutral and potentially guarded communication style. The therapeutic conversation is focused on exploring the patient's emotions and physical sensations.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "exploring and addressing sleep hygiene and fatigue management strategies",
+    "notable_linguistic_patterns": [
+      "repetition of struggles with getting out of bed",
+      "use of neutral language and lack of emotional expression"
+    ],
+    "session_id": 23,
+    "patient_id": "P007",
+    "cohort": "postpartum"
+  },
+  {
+    "session_summary": "The patient is experiencing significant anxiety and sleep disturbances, reporting difficulties with concentration and feeling overwhelmed. The patient's PHQ-9 proxy score indicates moderate severity of depressive symptoms. The patient is struggling to cope with uncertainty and worries about future events.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "cognitive restructuring to address worries and uncertainties",
+    "notable_linguistic_patterns": [
+      "repetitive expressions of uncertainty",
+      "physical symptoms correlated with anxiety"
+    ],
+    "session_id": 24,
+    "patient_id": "P007",
+    "cohort": "postpartum"
+  },
+  {
+    "session_summary": "The patient is experiencing significant postpartum challenges, with a high severity score and difficulty finding motivation. They are struggling with sleep and fatigue, and are taking things day by day. The patient's emotional state is neutral, but their sentiment score indicates a negative outlook.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "exploring coping mechanisms for managing sleep and fatigue",
+    "notable_linguistic_patterns": [
+      "low lexical diversity",
+      "frequent use of passive language (e.g., 'I've just been taking things day by day')"
+    ],
+    "session_id": 25,
+    "patient_id": "P007",
+    "cohort": "postpartum"
+  },
+  {
+    "session_summary": "The patient reported spending time with family and engaging in reading, but expressed feelings of disconnection from others and did not exhibit strong emotions during the session. Their severity score remains moderate, and they are taking things day by day. The patient's overall sentiment was slightly negative.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "social support networks and relationships",
+    "notable_linguistic_patterns": [
+      "limited emotional expression",
+      "short turns with low lexical diversity"
+    ],
+    "session_id": 26,
+    "patient_id": "P007",
+    "cohort": "postpartum"
+  },
+  {
+    "session_summary": "The patient presents with high severity depressive symptoms, struggling with sleep, fatigue, and a lack of joy in activities, indicating significant postpartum distress. They report canceling plans and having difficulty getting out of bed, suggesting significant impairment in daily functioning. The patient's emotional expression is dominated by feelings of depression and hopelessness.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "high",
+    "recommended_focus": "energy and motivation enhancement strategies",
+    "notable_linguistic_patterns": [
+      "repeated expressions of emotional numbing",
+      "low lexical diversity indicating potential cognitive impairment"
+    ],
+    "session_id": 27,
+    "patient_id": "P008",
+    "cohort": "postpartum"
+  },
+  {
+    "session_summary": "The patient reported noticing improvements in their anxiety and coping skills, with a sense of progress and things feeling 'a little lighter' this week. They have been taking things day by day and engaging in new activities like reading and walking. The patient's severity score remains moderate, indicating ongoing support needs.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "exploring sources of pressure and self-criticism",
+    "notable_linguistic_patterns": [
+      "increased use of self-reflective language",
+      "presence of 'should' statements indicating potential self-criticism"
+    ],
+    "session_id": 28,
+    "patient_id": "P008",
+    "cohort": "postpartum"
+  },
+  {
+    "session_summary": "The patient is experiencing symptoms of depression, including low energy, disconnection from others, and a lack of motivation, with a severity score of 13/27. They struggle with self-worth and feel pressure from internal 'should' statements. The patient is currently taking things day by day, indicating a sense of coping but also a lack of direction or purpose.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "exploring and challenging negative self-talk and 'should' statements",
+    "notable_linguistic_patterns": [
+      "repetition of phrases indicating lack of energy and motivation",
+      "use of absolute language ('I just don't see the point in a lot of things anymore')"
+    ],
+    "session_id": 29,
+    "patient_id": "P009",
+    "cohort": "postpartum"
+  },
+  {
+    "session_summary": "The patient appears to be managing daily life and coping with postpartum challenges, but with a neutral affect and limited emotional expression. They reported trying a breathing exercise with positive results and have been reading more, indicating some engagement in self-care. However, the overall sentiment and lexical diversity suggest a potential need for deeper exploration of emotions.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "emotional awareness and expression",
+    "notable_linguistic_patterns": [
+      "repeated phrases indicating avoidance of emotional depth",
+      "limited emotional vocabulary"
+    ],
+    "session_id": 30,
+    "patient_id": "P009",
+    "cohort": "postpartum"
+  },
+  {
+    "session_summary": "The patient discussed spending time with family and reading as positive experiences, but expressed difficulties and uncertainties in a neutral tone. The patient's responses were brief and lacked emotional depth. The session seemed to focus on exploring the patient's social support and daily activities.",
+    "engagement_level": "low",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "emotional exploration and expression",
+    "notable_linguistic_patterns": [
+      "repetition of phrases",
+      "lack of emotional language"
+    ],
+    "session_id": 31,
+    "patient_id": "P009",
+    "cohort": "postpartum"
+  },
+  {
+    "session_summary": "The patient is experiencing persistent low energy and anhedonia, canceling plans and lacking joy in activities that previously brought them happiness. Their sentiment score of 0.0 and dominant emotion of depression indicate a significant struggle with mood. The patient's lexical diversity and average words per turn are relatively low, suggesting potential cognitive or emotional constriction.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "exploring and addressing anhedonia",
+    "notable_linguistic_patterns": [
+      "repetition of phrases indicating low energy and anhedonia",
+      "lack of optimistic or positive self-referential language"
+    ],
+    "session_id": 32,
+    "patient_id": "P009",
+    "cohort": "postpartum"
+  },
+  {
+    "session_summary": "The patient, a postpartum individual, reports struggling with low energy, disconnection from others, and a lack of joy in activities, indicating a persistent and severe depressive state. They express feelings of sadness and hopelessness, but also demonstrate some self-awareness and courage in acknowledging their struggles. The patient's mood and affect remain a primary concern",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "high",
+    "recommended_focus": "increasing social support and connection",
+    "notable_linguistic_patterns": [
+      "repetitive negative self-statements",
+      "lack of positive affective language"
+    ],
+    "session_id": 33,
+    "patient_id": "P009",
+    "cohort": "postpartum"
+  },
+  {
+    "session_summary": "The patient, a postpartum individual with a high severity score, reported some positive experiences and coping mechanisms, including reading and practicing breathing exercises, and expressed a sense of progress. They also shared a positive interaction with their sister, indicating some social support. Overall, the patient's sentiment score and dominant emotion of progress suggest a cautiously optimistic tone.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "exploring and enhancing social support networks",
+    "notable_linguistic_patterns": [
+      "increased use of self-regulation language (e.g., 'I paused', 'I tried that breathing exercise')",
+      "positive reporting of social interactions (e.g., 'I talked to my sister', 'I spent some time with family')"
+    ],
+    "session_id": 34,
+    "patient_id": "P010",
+    "cohort": "postpartum"
+  },
+  {
+    "session_summary": "The patient reported a slight improvement in their mental state, with things feeling 'a little lighter' and having made an effort to reach out to family for support. They also demonstrated self-awareness and coping skills by recognizing anxiety and pausing to reflect. The patient's severity score remains moderate at 15/27.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "exploiting social support networks",
+    "notable_linguistic_patterns": [
+      "repetition of positive self-talk",
+      "increased use of self-reflective language"
+    ],
+    "session_id": 35,
+    "patient_id": "P010",
+    "cohort": "postpartum"
+  },
+  {
+    "session_summary": "The patient is experiencing high levels of anxiety and feeling overwhelmed, with a PHQ-9 proxy score of 23/27, indicating severe depressive symptoms. They report difficulty concentrating and feeling uncertain about the future. The patient did engage in social support activities, such as spending time with family, but struggles to manage their worry and overwhelm.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "high",
+    "recommended_focus": "cognitive restructuring to manage anxiety and uncertainty",
+    "notable_linguistic_patterns": [
+      "repetitive expression of worry and overwhelm",
+      "use of phrases indicating breathlessness and uncertainty"
+    ],
+    "session_id": 36,
+    "patient_id": "P010",
+    "cohort": "postpartum"
+  },
+  {
+    "session_summary": "The patient reported a positive experience discussing their feelings with their sister and noted an improvement in their mood, describing things as feeling 'a little lighter' this week. They also shared engaging in self-care activities like reading and walking. The patient's overall tone remained neutral, with a moderate severity score of 13/27.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "exploring physical sensations and emotional correlations",
+    "notable_linguistic_patterns": [
+      "repeated mentions of positive activities",
+      "neutral affect despite improved mood"
+    ],
+    "session_id": 37,
+    "patient_id": "P010",
+    "cohort": "postpartum"
+  },
+  {
+    "session_summary": "The patient reports a positive experience with a breathing exercise and notes a slight improvement in their mental state, with a decrease in anxiety and an increase in physical activity. The patient's sentiment score and dominant emotion of progress suggest a positive trajectory. The patient's lexical diversity and average words per turn indicate a moderate level of engagement and cognitive processing.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "low",
+    "recommended_focus": "building on coping skills and exploring the sources of pressure and anxiety",
+    "notable_linguistic_patterns": [
+      "repetition of positive experiences",
+      "self-reflexive questioning"
+    ],
+    "session_id": 38,
+    "patient_id": "P010",
+    "cohort": "postpartum"
+  },
+  {
+    "session_summary": "The patient reports a busy schedule and engagement in reading, with some social support from family, but the session lacks emotional expression and depth, with a neutral dominant emotion and low sentiment score. The patient's average words per turn and lexical diversity are relatively low, indicating potential difficulty with articulating their thoughts and feelings. The patient's severity score is moderate, suggesting a need for continued monitoring and support.",
+    "engagement_level": "low",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "exploring emotional experiences and increasing self-awareness",
+    "notable_linguistic_patterns": [
+      "repetition of phrases",
+      "use of the word 'should' indicating potential self-criticism or external pressure"
+    ],
+    "session_id": 39,
+    "patient_id": "P010",
+    "cohort": "postpartum"
+  },
+  {
+    "session_summary": "The patient discusses work-related stress and struggles with worrying about future events, but also mentions some positive coping mechanisms like reading and spending time with family. The patient's severity score indicates moderate depressive symptoms. The patient's neutral dominant emotion and low lexical diversity may suggest a lack of emotional expression or exploration.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "exploring and addressing worries about the future",
+    "notable_linguistic_patterns": [
+      "repetition of 'I've just been taking things day by day'",
+      "use of 'should' indicating self-imposed pressure"
+    ],
+    "session_id": 40,
+    "patient_id": "P011",
+    "cohort": "adult_general"
+  },
+  {
+    "session_summary": "The patient is experiencing significant distress due to uncertainty and difficulty concentrating, with prominent concerns about sleep and fatigue. They are struggling to look beyond their current situation and worry about future events. The patient's overall mood is neutral, but their sentiment score indicates a negative undertone.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "cognitive restructuring to address worry and uncertainty",
+    "notable_linguistic_patterns": [
+      "repetition of phrases indicating uncertainty and difficulty concentrating",
+      "limited lexical diversity suggesting restrictive thought patterns"
+    ],
+    "session_id": 41,
+    "patient_id": "P011",
+    "cohort": "adult_general"
+  },
+  {
+    "session_summary": "The patient reports work has been busy but manageable, and they've been taking things day by day. They express a desire for slight improvement but struggle to articulate specific thoughts or feelings. The patient's PHQ-9 proxy score indicates moderate depressive symptoms.",
+    "engagement_level": "low",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "exploring and labeling emotions",
+    "notable_linguistic_patterns": [
+      "repetitive phrases (e.g., 'I've just been taking things day by day')",
+      "avoidance of emotional disclosure"
+    ],
+    "session_id": 42,
+    "patient_id": "P011",
+    "cohort": "adult_general"
+  },
+  {
+    "session_summary": "The patient reports work stress as a primary concern, but their overall emotional expression remains neutral, and they mention coping mechanisms such as reading. The conversation seems to be stuck on surface-level discussions about work and daily activities. The patient's lexical diversity and average words per turn are relatively low, indicating potential limitations in emotional expression or exploration.",
+    "engagement_level": "low",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "exploring underlying emotions and pressures contributing to work stress",
+    "notable_linguistic_patterns": [
+      "repeated phrases and topics without deeper exploration",
+      "use of the word 'should' indicating potential self-imposed pressure or external expectations"
+    ],
+    "session_id": 43,
+    "patient_id": "P011",
+    "cohort": "adult_general"
+  },
+  {
+    "session_summary": "The patient is experiencing significant sleep disturbances and feelings of overwhelm, with a notable increase in heart rate when thinking about upcoming events. Their PHQ-9 proxy score of 12 indicates moderate depression. The patient's emotional expression is neutral, but their sentiment score is negative, indicating a pessimistic outlook.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "coping mechanisms for stress and anxiety",
+    "notable_linguistic_patterns": [
+      "repetition of phrases indicating rumination",
+      "limited lexical diversity suggesting constrained emotional expression"
+    ],
+    "session_id": 44,
+    "patient_id": "P011",
+    "cohort": "adult_general"
+  },
+  {
+    "session_summary": "The patient reports a slight improvement in their mood, with things feeling 'a little lighter' this week, and attributes this to spending time with family and practicing a breathing exercise. The patient's sentiment score is positive, indicating a sense of progress. However, the patient's lexical diversity is relatively low, suggesting potential limitations in expressive ability.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "exploring the origins of self-imposed pressure and 'should' statements",
+    "notable_linguistic_patterns": [
+      "repetitive phrase 'things feel a little lighter this week'",
+      "use of the word 'should' indicating potential self-criticism or external pressure"
+    ],
+    "session_id": 45,
+    "patient_id": "P011",
+    "cohort": "adult_general"
+  },
+  {
+    "session_summary": "The patient presented with a neutral emotional tone and average lexical diversity, discussing their daily activities and social interactions, but without expressing strong emotions or concerns. They reported taking things day by day and engaging in self-care activities like reading. The patient's severity score of 14/27 indicates moderate depressive symptoms.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "exploring emotional regulation and coping mechanisms",
+    "notable_linguistic_patterns": [
+      "repetitive phrases",
+      "avoidance of emotional topics"
+    ],
+    "session_id": 46,
+    "patient_id": "P012",
+    "cohort": "postpartum"
+  },
+  {
+    "session_summary": "The patient is experiencing significant postpartum challenges, struggled with getting out of bed, and expressed feelings of hopelessness, as evidenced by their statement 'I just don't see the point in a lot of things anymore'. Their severity score is 19/27, indicating moderate to severe symptoms. The patient's neutral dominant emotion and low sentiment score suggest a need for further exploration of their emotional state.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "exploring and addressing feelings of hopelessness and lack of motivation",
+    "notable_linguistic_patterns": [
+      "repeated statements of struggle with daily activities",
+      "use of phrases indicating lack of purpose or meaning"
+    ],
+    "session_id": 47,
+    "patient_id": "P012",
+    "cohort": "postpartum"
+  },
+  {
+    "session_summary": "The patient is experiencing significant fatigue and low motivation, leading to canceled plans and a sense of hopelessness, with a severe depression score of 19/27. They have found some comfort in reading, but overall, their emotional state is neutral with a negative sentiment score. The patient's lexical diversity is relatively low, indicating potential cognitive impairment or emotional numbing.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "high",
+    "recommended_focus": "exploring the sources of pressure and guilt associated with the patient's use of the word 'should'",
+    "notable_linguistic_patterns": [
+      "repetition of phrases indicating lack of motivation and energy",
+      "use of the word 'should' suggesting self-criticism and external pressure"
+    ],
+    "session_id": 48,
+    "patient_id": "P012",
+    "cohort": "postpartum"
+  },
+  {
+    "session_summary": "The patient reported taking things day by day and made some positive efforts, such as going for walks and reading, with a notable instance of successful social support from their sister. The patient's sentiment score and dominant emotion of progress suggest a positive outlook. However, the severity score indicates a high level of depressive symptoms.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "exploring the sources of pressure and negative self-talk, as hinted at by the therapist's mention of the word 'should'",
+    "notable_linguistic_patterns": [
+      "repetition of phrases, such as 'I've just been taking things day by day'",
+      "use of positive self-reporting, e.g., 'I had a good week'"
+    ],
+    "session_id": 49,
+    "patient_id": "P013",
+    "cohort": "teen"
+  },
+  {
+    "session_summary": "The patient reports struggling with motivation and seeing the point in things, with a recent increase in reading being a positive aspect, but overall expressing a sense of hopelessness and difficulty with daily tasks like getting out of bed. Their work has been busy but not unusually so. The patient's emotional expression remains predominantly neutral despite discussing difficult topics.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "high",
+    "recommended_focus": "exploring and enhancing motivation and purpose",
+    "notable_linguistic_patterns": [
+      "repetition of hopelessness phrases",
+      "low lexical diversity indicating potential cognitive rigidity"
+    ],
+    "session_id": 50,
+    "patient_id": "P013",
+    "cohort": "teen"
+  },
+  {
+    "session_summary": "The patient reported a busy week, but noted some positive interactions with family, including a supportive conversation with their sister. Despite a high severity score, the patient's emotions during the session were neutral, and they engaged in some self-reflection. The patient also reported some self-care activities, such as going for walks.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "exploring the patient's support network and coping mechanisms",
+    "notable_linguistic_patterns": [
+      "repeated references to family interactions",
+      "brief, factual self-reports without elaboration"
+    ],
+    "session_id": 51,
+    "patient_id": "P013",
+    "cohort": "teen"
+  },
+  {
+    "session_summary": "The patient is experiencing anxiety related to work stress, specifically an upcoming meeting, and is having trouble concentrating due to uncertainty. They have made some effort to manage their anxiety by taking things day by day. However, their worries about future events persist.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "cognitive restructuring to address catastrophic thinking",
+    "notable_linguistic_patterns": [
+      "repetition of worries about future events",
+      "use of uncertain language (e.g., 'everything feels so uncertain')"
+    ],
+    "session_id": 52,
+    "patient_id": "P013",
+    "cohort": "teen"
+  },
+  {
+    "session_summary": "The patient is experiencing anxiety and feeling overwhelmed, with a prominent concern about an upcoming meeting and uncertainty about the future. They report spending time with family, but the conversation is dominated by feelings of uncertainty and self-doubt. The patient's PHQ-9 proxy score of 15 indicates a moderate level of depressive symptoms.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "coping mechanisms for anxiety and uncertainty",
+    "notable_linguistic_patterns": [
+      "repetitive language ('I spent some time with family this weekend' repeated)",
+      "use of words indicating self-doubt and uncertainty ('should', 'can't catch a breath')"
+    ],
+    "session_id": 53,
+    "patient_id": "P014",
+    "cohort": "postpartum"
+  },
+  {
+    "session_summary": "Could not parse LLM response.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "General support",
+    "notable_linguistic_patterns": [],
+    "session_id": 54,
+    "patient_id": "P014",
+    "cohort": "postpartum"
+  },
+  {
+    "session_summary": "The patient is experiencing significant challenges with motivation and social disconnection, reporting difficulty getting out of bed and feeling disconnected from others. The patient's overall sentiment is negative, and their severity score indicates moderate to severe depressive symptoms. The patient is coping by taking things day by day, but struggles with sleep and fatigue persist.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "exploring and addressing social disconnection and its impact on mental health",
+    "notable_linguistic_patterns": [
+      "repetition of struggles with sleep and fatigue",
+      "expression of disconnection from others"
+    ],
+    "session_id": 55,
+    "patient_id": "P014",
+    "cohort": "postpartum"
+  },
+  {
+    "session_summary": "The patient reported taking initial steps towards social support by discussing their feelings with their sister and engaging in activities like reading, indicating a sense of progress and slight improvement in mood. The patient's severity score suggests significant depressive symptoms. The patient's ability to pause when feeling anxious and reflect on their emotions is a positive coping mechanism.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "coping mechanisms and self-care strategies",
+    "notable_linguistic_patterns": [
+      "repetition of positive experiences",
+      "increased use of reflective language"
+    ],
+    "session_id": 56,
+    "patient_id": "P015",
+    "cohort": "postpartum"
+  },
+  {
+    "session_summary": "The patient reports a sense of progress and lighter feelings, attributing this to efforts such as going for walks and practicing breathing exercises. They also initiated a conversation with their sister, which went well. The patient demonstrates courage in trying new strategies and reflecting on their emotions and physical sensations.",
+    "engagement_level": "high",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "building resilience",
+    "notable_linguistic_patterns": [
+      "repetition of positive statements",
+      "increased self-awareness language"
+    ],
+    "session_id": 57,
+    "patient_id": "P015",
+    "cohort": "postpartum"
+  },
+  {
+    "session_summary": "The patient is experiencing overwhelming anxiety and uncertainty, struggling to concentrate and feeling pressure from uncertain sources. They report feeling overwhelmed and have difficulty articulating their thoughts. The patient's sentiment score is negative, indicating a predominantly negative emotional state.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "exploring sources of pressure and uncertainty",
+    "notable_linguistic_patterns": [
+      "repetition of phrases indicating uncertainty",
+      "use of words like 'should' implying self-imposed pressure"
+    ],
+    "session_id": 58,
+    "patient_id": "P016",
+    "cohort": "teen"
+  },
+  {
+    "session_summary": "The patient reported difficulty sleeping and experiencing anxiety about upcoming events, with a neutral dominant emotion and low sentiment score. They shared some positive experiences, such as reading, but overall expressed concerns about the future. The patient's average words per turn and lexical diversity suggest a somewhat limited but cooperative engagement.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "anxiety management",
+    "notable_linguistic_patterns": [
+      "repeated expressions of worry about future events",
+      "use of 'should' statements indicating potential self-criticism"
+    ],
+    "session_id": 59,
+    "patient_id": "P016",
+    "cohort": "teen"
+  },
+  {
+    "session_summary": "The patient reported trying a breathing exercise and talking to their sister about their feelings, both of which were helpful in reducing their distress. They expressed a sense of progress and noted that things feel 'a little lighter' this week. The patient's severity score remains moderate at 16/27.",
+    "engagement_level": "high",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "exploring the sources of pressure and expectations that may be contributing to the patient's distress",
+    "notable_linguistic_patterns": [
+      "repetition of phrases indicating courage and positive outcomes",
+      "use of 'should' statements that may indicate self-imposed pressure or expectations"
+    ],
+    "session_id": 60,
+    "patient_id": "P016",
+    "cohort": "teen"
+  },
+  {
+    "session_summary": "The patient presents with a neutral affect and reports no unusual experiences, despite a high severity score indicating significant depressive symptoms. They discuss work stress and taking things day by day, with some positive interactions with family. The patient's lexical diversity and average words per turn are relatively low, suggesting potential emotional constriction or guardedness.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "exploring and processing emotions underlying reported stress and daily functioning",
+    "notable_linguistic_patterns": [
+      "repetition of phrases",
+      "lack of emotional elaboration"
+    ],
+    "session_id": 61,
+    "patient_id": "P017",
+    "cohort": "postpartum"
+  },
+  {
+    "session_summary": "The patient reported making progress and engaging in coping skills such as reading and exercise, but also expressed difficulties and pressures, with a severity score of 21/27 indicating moderate to severe symptoms. The patient's sentiment score was positive, but the lexical diversity and average words per turn were relatively low. The therapist employed active listening skills and explored the patient's thoughts and feelings.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "exploring the source of pressure and 'should' statements",
+    "notable_linguistic_patterns": [
+      "repetitive positive self-statements",
+      "use of 'should' statements indicating potential self-criticism"
+    ],
+    "session_id": 62,
+    "patient_id": "P017",
+    "cohort": "postpartum"
+  },
+  {
+    "session_summary": "The patient reports struggling with sleep and fatigue, having a hard time getting out of bed, but has found some comfort in reading. They mention work has been busy, but nothing out of the ordinary. The patient's overall sentiment is neutral, with a slightly negative tone.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "exploring underlying causes of sleep disturbances and fatigue",
+    "notable_linguistic_patterns": [
+      "repetition of struggles with getting out of bed",
+      "use of vague statements about work and daily life"
+    ],
+    "session_id": 63,
+    "patient_id": "P018",
+    "cohort": "teen"
+  },
+  {
+    "session_summary": "The patient reports taking things day by day, with some positive experiences such as spending time with family and reading, but overall emotional expression remains neutral. The patient's severity score indicates moderate to severe depressive symptoms. The patient's lexical diversity and average words per turn are relatively low, suggesting potential difficulties with emotional expression or cognitive processing.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "exploring and enhancing emotional awareness and expression",
+    "notable_linguistic_patterns": [
+      "repetition of phrases (e.g., 'I've just been taking things day by day')",
+      "avoidance of emotional language"
+    ],
+    "session_id": 64,
+    "patient_id": "P018",
+    "cohort": "teen"
+  },
+  {
+    "session_summary": "Could not parse LLM response.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "General support",
+    "notable_linguistic_patterns": [],
+    "session_id": 65,
+    "patient_id": "P018",
+    "cohort": "teen"
+  },
+  {
+    "session_summary": "The patient reported a positive experience discussing their feelings with their sister and engaging in self-care activities such as walking and reading. They demonstrated progress and a positive sentiment. The patient's severity score remains moderate, indicating ongoing symptoms.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "exploring emotional regulation strategies",
+    "notable_linguistic_patterns": [
+      "repetition of phrases indicating difficulty recalling specifics",
+      "increased use of positive self-descriptors"
+    ],
+    "session_id": 66,
+    "patient_id": "P018",
+    "cohort": "teen"
+  },
+  {
+    "session_summary": "The patient continues to struggle with sleep and fatigue, reporting another sleepless night, and expresses uncertainty and worry about the future. Despite this, they have made efforts to engage in positive activities, such as reading and spending time with family. The patient's sentiment score is negative, indicating an overall pessimistic outlook.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "exploring and addressing the sources of pressure and uncertainty",
+    "notable_linguistic_patterns": [
+      "frequent use of 'should' statements, indicating self-imposed pressure",
+      "expressions of uncertainty and worry about the future"
+    ],
+    "session_id": 67,
+    "patient_id": "P018",
+    "cohort": "teen"
+  },
+  {
+    "session_summary": "The patient presents with symptoms of overwhelm, difficulty concentrating, and sleep disturbances, indicating a high level of distress. The patient's dominant emotion is neutral, but their sentiment score is -1.0, suggesting a negative emotional tone. The patient's average words per turn and lexical diversity are relatively low, indicating potential difficulty with emotional expression.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "high",
+    "recommended_focus": "sleep_fatigue",
+    "notable_linguistic_patterns": [
+      "frequent use of 'should' statements",
+      "rumination on uncertain or hypothetical events"
+    ],
+    "session_id": 68,
+    "patient_id": "P019",
+    "cohort": "veteran"
+  },
+  {
+    "session_summary": "The patient reported spending time with family and engaging in reading, indicating some positive social support and coping mechanisms. However, the session excerpt suggests a sense of neutrality and lack of emotional expression, with the patient repeatedly stating they are 'taking things day by day'. The patient's severity score of 21/27 indicates a high level of depressive symptoms.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "exploring the patient's emotional experience and underlying pressures",
+    "notable_linguistic_patterns": [
+      "repetition of phrases (e.g., 'taking things day by day')",
+      "use of the word 'should', indicating potential self-criticism or external pressure"
+    ],
+    "session_id": 69,
+    "patient_id": "P019",
+    "cohort": "veteran"
+  },
+  {
+    "session_summary": "The patient is experiencing significant worry about future events and uncertainty, leading to difficulties in concentration and increased heart rate, with a PHQ-9 proxy score of 15 indicating moderate depressive symptoms. The patient's work stress and busy schedule are contributing factors. The patient is taking things day by day and acknowledges the need for courage to try new things.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "exploring coping mechanisms for managing worry and uncertainty",
+    "notable_linguistic_patterns": [
+      "repetitive expressions of worry",
+      "difficulty articulating specific emotions or needs"
+    ],
+    "session_id": 70,
+    "patient_id": "P019",
+    "cohort": "veteran"
+  },
+  {
+    "session_summary": "Could not parse LLM response.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "General support",
+    "notable_linguistic_patterns": [],
+    "session_id": 71,
+    "patient_id": "P019",
+    "cohort": "veteran"
+  },
+  {
+    "session_summary": "The patient is experiencing difficulty concentrating due to uncertainty and is struggling with sleep and feelings of overwhelm, with a severity score of 14/27. The patient's emotional tone is neutral, but their sentiment score is negative, indicating underlying distress. The patient's lexical diversity and average words per turn suggest some constriction in their emotional expression.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "exploring and addressing the patient's anxiety and uncertainty, particularly in relation to their upcoming meeting and work-related stress",
+    "notable_linguistic_patterns": [
+      "repeated mentions of difficulty and uncertainty",
+      "use of words like 'overwhelmed' and 'can't catch a breath' to describe emotional state"
+    ],
+    "session_id": 72,
+    "patient_id": "P019",
+    "cohort": "veteran"
+  },
+  {
+    "session_summary": "The patient reports a positive week with increased reading and physical activity, and acknowledges feeling more courageous in trying new things. They also express a sense of lightness and improved mood. The patient's overall sentiment is positive, but still indicates a moderate level of distress.",
+    "engagement_level": "high",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "exploring and building on the patient's growing self-awareness and courage in trying new activities",
+    "notable_linguistic_patterns": [
+      "repeated phrases indicating self-encouragement and reflection",
+      "increased use of positive emotional language"
+    ],
+    "session_id": 73,
+    "patient_id": "P020",
+    "cohort": "veteran"
+  },
+  {
+    "session_summary": "The patient is making some progress in managing anxiety, as evidenced by their practice of pausing and using a breathing exercise. They are taking things day by day and have found some activities, like reading, to be helpful. The patient's severity score remains relatively high, indicating ongoing symptoms.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "building self-efficacy and exploring sources of pressure and anxiety",
+    "notable_linguistic_patterns": [
+      "repetition of positive self-statements",
+      "presence of 'should' statements indicating self-pressure"
+    ],
+    "session_id": 74,
+    "patient_id": "P020",
+    "cohort": "veteran"
+  },
+  {
+    "session_summary": "The patient is experiencing anxiety and feelings of overwhelm, struggling with sleep and concentration due to uncertainty about the future. The patient's PHQ-9 proxy score of 16 indicates moderate to severe depressive symptoms. The patient's lexical diversity and average words per turn are relatively low, suggesting potential cognitive impairment or difficulty articulating emotions.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "exploring coping mechanisms for managing uncertainty and anxiety",
+    "notable_linguistic_patterns": [
+      "repetition of worries about the future",
+      "physical sensations of overwhelm, such as feeling unable to 'catch a breath'"
+    ],
+    "session_id": 75,
+    "patient_id": "P020",
+    "cohort": "veteran"
+  },
+  {
+    "session_summary": "The patient reports feeling disconnected from others and struggles to find meaning or joy in activities, indicating a persistently low mood. The patient's lexical diversity and average words per turn suggest limited emotional expression. The patient's PHQ-9 proxy score of 20/27 indicates moderate to severe depression.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "exploring and challenging negative thought patterns",
+    "notable_linguistic_patterns": [
+      "repeated expressions of hopelessness",
+      "use of absolute language ('nothing really brings me joy')"
+    ],
+    "session_id": 76,
+    "patient_id": "P020",
+    "cohort": "veteran"
+  },
+  {
+    "session_summary": "The patient discussed difficulty sleeping and work-related stress, specifically an upcoming meeting that triggers anxiety, but also mentioned some positive experiences like spending time with family and reading. The patient's dominant emotion was neutral, and their sentiment score was 0.0. The session touched on the patient's thoughts and feelings, but didn't delve deeply into emotional exploration.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "exploring and reframing negative self-talk and work-related stress",
+    "notable_linguistic_patterns": [
+      "repetitive mention of heart racing when thinking about the meeting",
+      "acknowledgment of courage needed to try something new, potentially indicating self-doubt or fear of change"
+    ],
+    "session_id": 77,
+    "patient_id": "P020",
+    "cohort": "veteran"
+  },
+  {
+    "session_summary": "The patient reports progress in managing anxiety and a slight improvement in their mood, attributing it to social support and practicing pause techniques. They express a desire to explore what it would take for things to be 'even slightly better'. The patient's sentiment score indicates a neutral emotional state, suggesting a cautious optimism.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "exploring and reinforcing social support networks",
+    "notable_linguistic_patterns": [
+      "repetitive expression of positive change ('things feel a little lighter this week')",
+      "use of self-reflective language ('I notice when I was getting anxious and I paused')"
+    ],
+    "session_id": 78,
+    "patient_id": "P020",
+    "cohort": "veteran"
+  },
+  {
+    "session_summary": "Could not parse LLM response.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "General support",
+    "notable_linguistic_patterns": [],
+    "session_id": 79,
+    "patient_id": "P021",
+    "cohort": "adult_general"
+  },
+  {
+    "session_summary": "Could not parse LLM response.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "General support",
+    "notable_linguistic_patterns": [],
+    "session_id": 80,
+    "patient_id": "P021",
+    "cohort": "adult_general"
+  },
+  {
+    "session_summary": "The patient is experiencing difficulty concentrating due to feelings of uncertainty, which appears to be linked to work-related stress and worries about potential future events. The patient's dominant emotion was neutral, but their sentiment score was negative, indicating underlying distress. The patient's lexical diversity and average words per turn suggest a moderate level of engagement.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "exploring the sources of pressure and uncertainty driving the patient's worries",
+    "notable_linguistic_patterns": [
+      "repetition of phrases indicating uncertainty",
+      "use of words like 'should' suggesting self-imposed pressure"
+    ],
+    "session_id": 81,
+    "patient_id": "P021",
+    "cohort": "adult_general"
+  },
+  {
+    "session_summary": "The patient reports taking things day by day and has made an effort to engage in a positive activity, reading, but still experiences significant work-related stress and anxiety about upcoming events. The patient's sentiment remains neutral, but their PHQ-9 proxy score indicates moderate severity of depressive symptoms. The therapist is exploring the patient's thoughts and feelings to better understand their experiences.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "exploring and challenging negative thought patterns, particularly those related to work stress and anxiety",
+    "notable_linguistic_patterns": [
+      "use of future-oriented worrying",
+      "presence of self-imposed pressure indicated by the word 'should'"
+    ],
+    "session_id": 82,
+    "patient_id": "P021",
+    "cohort": "adult_general"
+  },
+  {
+    "session_summary": "Could not parse LLM response.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "General support",
+    "notable_linguistic_patterns": [],
+    "session_id": 83,
+    "patient_id": "P021",
+    "cohort": "adult_general"
+  },
+  {
+    "session_summary": "The patient presents with a neutral demeanor and reports managing work stress by taking things day by day, with some positive engagement with family over the weekend. The patient's emotional expression is muted, and they exhibit a low lexical diversity. The therapist explores the patient's thought patterns and physical sensations, noting the use of the word 'should' as a potential source of pressure.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "exploring the sources of pressure and perfectionism implied by the patient's use of the word 'should'",
+    "notable_linguistic_patterns": [
+      "repetition of phrases (e.g., 'I've just been taking things day by day')",
+      "use of the word 'should' to express self-imposed pressure"
+    ],
+    "session_id": 84,
+    "patient_id": "P022",
+    "cohort": "veteran"
+  },
+  {
+    "session_summary": "The patient reported some positive activities, such as reading and spending time with family, but struggled to elaborate on their emotions and experiences, indicating a potential need for further exploration of their emotional state. The patient's average words per turn and lexical diversity were relatively low, suggesting a possible lack of engagement or comfort with expressive communication. The patient's PHQ-9 proxy score of 20/27 indicates a moderate to severe level of depressive symptoms.",
+    "engagement_level": "low",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "emotional awareness and expression",
+    "notable_linguistic_patterns": [
+      "repetition of positive statements without elaboration",
+      "avoidance of emotional disclosure"
+    ],
+    "session_id": 85,
+    "patient_id": "P022",
+    "cohort": "veteran"
+  },
+  {
+    "session_summary": "The patient expresses feelings of sadness and disconnection, struggling to find meaning and purpose, with a high severity score indicating significant depressive symptoms. The patient's average words per turn and lexical diversity suggest moderate verbal engagement. Despite this, the patient's sentiment score and dominant emotion indicate a strong negative emotional state.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "high",
+    "recommended_focus": "increasing social connection and support",
+    "notable_linguistic_patterns": [
+      "repetitive negative self-statements",
+      "avoidance of future-oriented language"
+    ],
+    "session_id": 86,
+    "patient_id": "P022",
+    "cohort": "veteran"
+  },
+  {
+    "session_summary": "Could not parse LLM response.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "General support",
+    "notable_linguistic_patterns": [],
+    "session_id": 87,
+    "patient_id": "P022",
+    "cohort": "veteran"
+  },
+  {
+    "session_summary": "The patient expressed feelings of pointlessness and struggled with motivation, indicated by statements like 'I just don't see the point in a lot of things anymore.' The patient's severity score of 19/27 suggests moderate to severe depressive symptoms. The patient's neutral dominant emotion and low sentiment score of -1.0 further support this assessment.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "exploring self-worth and the sources of pressure related to the patient's use of the word 'should'",
+    "notable_linguistic_patterns": [
+      "repetitive phrases indicating rumination",
+      "use of the word 'should' suggesting internalized pressure or obligation"
+    ],
+    "session_id": 88,
+    "patient_id": "P023",
+    "cohort": "postpartum"
+  },
+  {
+    "session_summary": "The patient appears to be struggling with sleep fatigue, as evident from their difficulty getting out of bed, and is trying to manage by taking things day by day. The patient's emotional tone is neutral, but their sentiment score is negative, indicating potential underlying distress. The patient's lexical diversity and average words per turn are relatively low, suggesting possible cognitive impairment or emotional numbing.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "exploring the patient's emotional experience and potential sources of pressure or guilt",
+    "notable_linguistic_patterns": [
+      "repetition of phrases (e.g., 'I've just been taking things day by day')",
+      "use of the word 'should', indicating potential self-criticism or external pressure"
+    ],
+    "session_id": 89,
+    "patient_id": "P023",
+    "cohort": "postpartum"
+  },
+  {
+    "session_summary": "The patient reported spending time with family and engaging in reading, but expressed difficulties and pressures without elaborating on their emotions or underlying causes. The patient's average words per turn and lexical diversity were relatively low, indicating potential limitations in expressive communication. The session's dominant neutral emotion and 0.0 sentiment score suggest emotional guardedness or ambivalence.",
+    "engagement_level": "low",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "exploring emotional experience and underlying pressures",
+    "notable_linguistic_patterns": [
+      "repetitive statements",
+      "avoidance of emotional expression"
+    ],
+    "session_id": 90,
+    "patient_id": "P023",
+    "cohort": "postpartum"
+  },
+  {
+    "session_summary": "The patient reports managing anxiety and engaging in self-care activities, such as reading and talking to their sister, while acknowledging the need for courage in trying new things. Their sentiment score and dominant emotion suggest a generally neutral tone. The patient's average words per turn and lexical diversity indicate a moderate level of engagement and expressiveness.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "building resilience and coping strategies",
+    "notable_linguistic_patterns": [
+      "repetition of 'it takes courage to try something new'",
+      "use of self-reflection and introspection"
+    ],
+    "session_id": 91,
+    "patient_id": "P023",
+    "cohort": "postpartum"
+  },
+  {
+    "session_summary": "Could not parse LLM response.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "General support",
+    "notable_linguistic_patterns": [],
+    "session_id": 92,
+    "patient_id": "P023",
+    "cohort": "postpartum"
+  },
+  {
+    "session_summary": "The patient reported struggling with low energy and motivation, canceling plans and having difficulty getting out of bed, but also mentioned some positive interactions with family and reading as a coping mechanism. The patient's severity score indicates moderate depressive symptoms. The patient's emotional expression was largely neutral, with a negative sentiment score.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "increasing motivation and energy",
+    "notable_linguisticpatterns": [
+      "repeated self-soothing phrases ('taking things day by day')",
+      "presence of 'should' statements indicating potential self-criticism"
+    ],
+    "session_id": 93,
+    "patient_id": "P023",
+    "cohort": "postpartum"
+  },
+  {
+    "session_summary": "The patient expresses anxiety and difficulty sleeping, with racing thoughts and uncertainty about the future. They struggle to concentrate and feel pressured, using words like 'should' to describe their feelings. The patient's anxiety is impacting their daily life, particularly in relation to sleep and upcoming events.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "addressing sleep hygiene and anxiety management techniques",
+    "notable_linguistic_patterns": [
+      "repetitive statements about sleep difficulties",
+      "use of future-oriented worrying language"
+    ],
+    "session_id": 94,
+    "patient_id": "P024",
+    "cohort": "veteran"
+  },
+  {
+    "session_summary": "The patient reports feeling overwhelmed and struggles with sleep and fatigue, with a dominant emotion of neutral and a negative sentiment score. The patient's average words per turn and lexical diversity suggest a moderate level of engagement. The session primarily focused on the patient's worries about the future and their impact on sleep.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "cognitive restructuring to address worries about the future",
+    "notable_linguistic_patterns": [
+      "repetition of worries about the future",
+      "use of words like 'should' indicating self-imposed pressure"
+    ],
+    "session_id": 95,
+    "patient_id": "P024",
+    "cohort": "veteran"
+  },
+  {
+    "session_summary": "The patient discussed their struggles with sleep and fatigue, citing racing thoughts and worries about upcoming events, with a dominant neutral emotion but negative sentiment score. The patient's lexical diversity and average words per turn suggest a possible struggle with articulating their emotions. The session touched on the patient's anxiety about a meeting and its impact on their sleep.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "cognitive restructuring to address worries about future events",
+    "notable_linguistic_patterns": [
+      "repetition of phrases indicating anxiety (e.g., 'My heart races when I think about the meeting tomorrow')",
+      "use of words indicating uncertainty and pressure (e.g., 'should', 'worrying about things that haven't happened yet')"
+    ],
+    "session_id": 96,
+    "patient_id": "P024",
+    "cohort": "veteran"
+  },
+  {
+    "session_summary": "Could not parse LLM response.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "General support",
+    "notable_linguistic_patterns": [],
+    "session_id": 97,
+    "patient_id": "P025",
+    "cohort": "postpartum"
+  },
+  {
+    "session_summary": "The patient is experiencing uncertainty and feeling overwhelmed, with work stress being a primary topic of concern. They are struggling to concentrate and are apprehensive about an upcoming meeting, indicating high levels of anxiety. Despite this, they mention reading as a positive activity.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "coping mechanisms for managing work-related anxiety",
+    "notable_linguistic_patterns": [
+      "repetition of 'work has been busy but nothing unusual' indicating potential avoidance or minimization",
+      "use of 'should' which may suggest self-imposed pressure or external expectations"
+    ],
+    "session_id": 98,
+    "patient_id": "P025",
+    "cohort": "postpartum"
+  },
+  {
+    "session_summary": "The patient demonstrated some progress in managing anxiety by pausing and reflecting, as practiced in previous sessions, but overall sentiment remained neutral and lexical diversity was relatively low. The patient reported busy work life and some positive interactions, including reading and talking to a sister. Despite these efforts, the patient's severity score remains high at 20/27, indicating ongoing significant distress.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "exploring and addressing underlying pressures and expectations, particularly those related to the use of 'should' statements",
+    "notable_linguistic_patterns": [
+      "repetition of phrases indicating awareness of anxiety management techniques",
+      "use of 'should' statements suggesting potential self-imposed pressure"
+    ],
+    "session_id": 99,
+    "patient_id": "P025",
+    "cohort": "postpartum"
+  },
+  {
+    "session_summary": "The patient expresses feelings of overwhelm and uncertainty, but also reports some positive experiences such as reading and spending time with family. The patient's severity score indicates moderate depressive symptoms. The patient is exploring their emotions and thoughts, seeking clarity and insight.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "cognitive restructuring to address worries about future events",
+    "notable_linguistic_patterns": [
+      "repetition of 'what would it look like if things were even slightly better'",
+      "use of uncertainty-related language such as 'can't catch a breath' and 'everything feels so uncertain'"
+    ],
+    "session_id": 100,
+    "patient_id": "P025",
+    "cohort": "postpartum"
+  },
+  {
+    "session_summary": "The patient reported making progress by opening up to their sister about their feelings, and also found a suggested breathing exercise to be helpful. The patient's sentiment score and dominant emotion of progress indicate a positive shift. However, the patient's lexical diversity and average words per turn suggest a potential need for further exploration of their emotions.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "low",
+    "recommended_focus": "exploring self-criticism and pressure",
+    "notable_linguistic_patterns": [
+      "repetition of positive statements",
+      "use of tentative language when discussing emotional experiences"
+    ],
+    "session_id": 101,
+    "patient_id": "P025",
+    "cohort": "postpartum"
+  },
+  {
+    "session_summary": "The patient reported a busy work schedule and some positive interactions with family, but overall expressed a neutral sentiment and average emotional expression. They demonstrated some awareness of their anxiety and ability to pause when feeling anxious. The patient's PHQ-9 proxy score of 13 indicates moderate depressive symptoms.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "exploring coping skills and self-compassion",
+    "notable_linguistic_patterns": [
+      "repetition of positive self-talk",
+      "use of neutral language to describe emotions"
+    ],
+    "session_id": 102,
+    "patient_id": "P026",
+    "cohort": "veteran"
+  },
+  {
+    "session_summary": "The patient is struggling with uncertainty and difficulty concentrating, leading to sleep disturbances and fatigue. They report taking things day by day, indicating a potential sense of being overwhelmed. The patient's severity score of 21/27 suggests moderate to severe depressive symptoms.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "exploring coping mechanisms for uncertainty and sleep disturbances",
+    "notable_linguistic_patterns": [
+      "repetitive phrases (e.g., 'work has been busy but nothing unusual')",
+      "use of vague language (e.g., 'everything feels so uncertain')"
+    ],
+    "session_id": 103,
+    "patient_id": "P026",
+    "cohort": "veteran"
+  },
+  {
+    "session_summary": "The patient reported a positive interaction with their sister and demonstrated self-awareness by recognizing anxiety and utilizing coping strategies, but still expressed feelings of pressure and obligation, indicated by the use of the word 'should'. The patient's average words per turn and lexical diversity suggest a moderate level of engagement. The patient's overall sentiment score and dominant emotion indicate a neutral tone.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "exploring the sources of pressure and obligation",
+    "notable_linguistic_patterns": [
+      "frequent use of the word 'should', indicating potential self-imposed expectations or external pressure",
+      "increased self-awareness and reflection, as evidenced by the patient's ability to pause and recognize anxiety"
+    ],
+    "session_id": 104,
+    "patient_id": "P026",
+    "cohort": "veteran"
+  },
+  {
+    "session_summary": "The patient appears to be struggling with work stress and a sense of purpose, but has made some effort to engage in activities they enjoy, such as reading. Their neutral sentiment and average lexical diversity suggest a sense of emotional numbing. The patient's PHQ-9 proxy score indicates moderate severity of depressive symptoms.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "exploring the patient's values and sense of purpose",
+    "notable_linguistic_patterns": [
+      "repetition of phrases",
+      "use of existential language (e.g., 'I just don't see the point')"
+    ],
+    "session_id": 105,
+    "patient_id": "P026",
+    "cohort": "veteran"
+  },
+  {
+    "session_summary": "The patient is experiencing low energy and struggling to find joy in activities, with work stress being a primary topic of discussion. The patient's sentiment score is negative, indicating a pessimistic outlook. Despite this, the patient has made some effort to engage in self-care activities like reading.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "exploring the sources of pressure and lack of joy in daily activities",
+    "notable_linguistic_patterns": [
+      "repeated phrases indicating difficulty in articulating emotions",
+      "use of words like 'should' suggesting self-imposed pressure"
+    ],
+    "session_id": 106,
+    "patient_id": "P026",
+    "cohort": "veteran"
+  },
+  {
+    "session_summary": "The patient reports a neutral emotional state and mentions reading more as a positive activity, but the conversation is dominated by a lack of depth and repetition of phrases, indicating potential avoidance or discomfort with discussing their emotions. The patient's PHQ-9 proxy score of 12 suggests moderate symptoms of depression. The therapeutic conversation is somewhat stunted, with the patient using short sentences and low lexical diversity.",
+    "engagement_level": "low",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "exploring emotional avoidance and increasing self-expression",
+    "notable_linguistic_patterns": [
+      "repetitive phrases",
+      "low lexical diversity"
+    ],
+    "session_id": 107,
+    "patient_id": "P027",
+    "cohort": "veteran"
+  },
+  {
+    "session_summary": "The patient is experiencing significant anxiety, particularly in relation to an upcoming meeting, and is struggling with sleep and feelings of overwhelm. Their PHQ-9 proxy score indicates moderate to severe depressive symptoms. The patient's lexical diversity and average words per turn suggest some difficulty with articulating their thoughts and emotions.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "cognitive restructuring to address worry and rumination patterns",
+    "notable_linguistic_patterns": [
+      "repetitive mentions of physical anxiety symptoms (e.g., 'my heart races')",
+      "difficulty articulating specific thoughts and feelings (e.g., 'it's hard to concentrate when everything feels so uncertain')"
+    ],
+    "session_id": 108,
+    "patient_id": "P027",
+    "cohort": "veteran"
+  },
+  {
+    "session_summary": "The patient reports struggling with social connections and energy levels, but has made efforts to engage in activities such as reading and spending time with family. They express feelings of disconnection from others. The patient's language suggests a sense of neutrality and lack of emotional expression.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "improving social support networks",
+    "notable_linguistic_patterns": [
+      "avoidance of emotional language",
+      "repetitive phrases indicating emotional numbing"
+    ],
+    "session_id": 109,
+    "patient_id": "P027",
+    "cohort": "veteran"
+  },
+  {
+    "session_summary": "The patient reports feeling overwhelmed and uncertain, with work stress being a primary topic of discussion. They express difficulty concentrating and a tendency to worry about future events. The patient's neutral dominant emotion and low sentiment score suggest a sense of emotional numbing or detachment.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "exploring the patient's use of the word 'should' and its relation to self-imposed pressure and anxiety",
+    "notable_linguistic_patterns": [
+      "repeated use of the word 'should', indicating potential self-criticism or perfectionism",
+      "use of phrases like 'I've just been taking things day by day', suggesting avoidance or coping mechanisms"
+    ],
+    "session_id": 110,
+    "patient_id": "P027",
+    "cohort": "veteran"
+  },
+  {
+    "session_summary": "The patient reports feeling overwhelmed by work stress and lacking energy, leading to canceled plans. Despite this, they have found some solace in reading. The patient's severity score indicates a high level of depressive symptoms.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "high",
+    "recommended_focus": "exploring energy management and coping strategies",
+    "notable_linguistic_patterns": [
+      "repetition of 'I've been canceling plans' indicating stuck thinking",
+      "limited lexical diversity suggesting potentially constrained emotional expression"
+    ],
+    "session_id": 111,
+    "patient_id": "P027",
+    "cohort": "veteran"
+  },
+  {
+    "session_summary": "The patient is experiencing significant work-related stress and anxiety, with feelings of overwhelm and worry about future events. The patient's sleep is also being impacted, with reported difficulty sleeping due to racing thoughts. The patient's sentiment score is negative, indicating a low mood.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "cognitive restructuring to address 'should' statements and reduce self-imposed pressure",
+    "notable_linguistic_patterns": [
+      "repeated use of 'should' statements",
+      "rumination on hypothetical negative outcomes"
+    ],
+    "session_id": 112,
+    "patient_id": "P027",
+    "cohort": "veteran"
+  },
+  {
+    "session_summary": "The patient reported a positive experience spending time with family and engaging in breathing exercises, indicating a sense of progress and effort towards improvement. The patient's sentiment score and dominant emotion of 'progress' suggest a motivated and optimistic outlook. However, the repetition of certain phrases may indicate some anxiety or uncertainty.",
+    "engagement_level": "high",
+    "outcome_risk_flag": "low",
+    "recommended_focus": "exploring the source of pressure and self-criticism associated with the word 'should'",
+    "notable_linguistic_patterns": [
+      "repetition of phrases",
+      "use of self-affirming statements"
+    ],
+    "session_id": 113,
+    "patient_id": "P028",
+    "cohort": "veteran"
+  },
+  {
+    "session_summary": "The patient's session indicates a neutral emotional tone and a focus on social support, with the patient discussing daily life and coping mechanisms. The patient's PHQ-9 proxy score of 16/27 suggests moderate to severe depressive symptoms. The patient's lexical diversity and average words per turn are relatively low, indicating potential limitations in emotional expression.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "exploring the patient's use of the word 'should' and its relation to self-pressure and expectations",
+    "notable_linguistic_patterns": [
+      "repeated use of 'should', indicating potential self-criticism or external pressure",
+      "use of coping mechanisms such as reading and spending time with family"
+    ],
+    "session_id": 114,
+    "patient_id": "P028",
+    "cohort": "veteran"
+  },
+  {
+    "session_summary": "The patient reported a positive experience with a breathing exercise and had a good week with increased physical activity, indicating progress in coping skills. The patient's sentiment score and dominant emotion of progress suggest a positive trajectory. However, the patient's lexical diversity and average words per turn are relatively low, which may indicate some limitations in expressive ability.",
+    "engagement_level": "high",
+    "outcome_risk_flag": "low",
+    "recommended_focus": "exploring sources of pressure and self-criticism",
+    "notable_linguistic_patterns": [
+      "repetition of positive statements",
+      "use of phrases indicating self-awareness and curiosity"
+    ],
+    "session_id": 115,
+    "patient_id": "P028",
+    "cohort": "veteran"
+  },
+  {
+    "session_summary": "The patient reports progress in managing anxiety through breathing exercises and increased communication with their sister, with a notable improvement in coping skills. The patient's sentiment score is neutral, indicating a mixed emotional state. The patient's severity score remains moderate, suggesting ongoing symptoms.",
+    "engagement_level": "high",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "building resilience",
+    "notable_linguistic_patterns": [
+      "repetition of positive self-talk",
+      "increased use of self-regulatory language"
+    ],
+    "session_id": 116,
+    "patient_id": "P028",
+    "cohort": "veteran"
+  },
+  {
+    "session_summary": "The patient, a teen, presented with work-related stress and uncertainty, reporting difficulty concentrating and a high severity score of 20/27 on the PHQ-9 proxy. They expressed neutral emotions and a negative sentiment score of -1.0. The patient is taking things day by day and has found some solace in reading.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "exploring sources of pressure and uncertainty",
+    "notable_linguistic_patterns": [
+      "repetitive phrases indicating rumination",
+      "use of 'should' statements suggesting self-imposed expectations"
+    ],
+    "session_id": 117,
+    "patient_id": "P029",
+    "cohort": "teen"
+  },
+  {
+    "session_summary": "The patient appears to be coping with their current situation by taking things day by day and engaging in activities like reading, but struggles to articulate their emotions and thoughts, indicating a need for further exploration. The patient's neutral dominant emotion and moderate PHQ-9 score suggest a stable but still concerning mental health state. The therapist's attempts to delve deeper into the patient's feelings were met with brief responses, suggesting a potential resistance to emotional expression.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "emotional expression and exploration",
+    "notable_linguistic_patterns": [
+      "repeated phrases indicating avoidance of emotional discussion",
+      "brief responses suggesting potential emotional guardedness"
+    ],
+    "session_id": 118,
+    "patient_id": "P029",
+    "cohort": "teen"
+  },
+  {
+    "session_summary": "The patient reported difficulty sleeping and experiencing uncertainty, which leads to worry about potential future events. They have made an effort to engage in a positive activity, such as reading. The patient's overall sentiment remains negative, indicating ongoing distress.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "exploring cognitive distortions and worry patterns",
+    "notable_linguistic_patterns": [
+      "repetitive expressions of worry",
+      "use of tentative language when discussing feelings and thoughts"
+    ],
+    "session_id": 119,
+    "patient_id": "P029",
+    "cohort": "teen"
+  },
+  {
+    "session_summary": "The patient is experiencing overwhelming feelings and struggling with sleep and concentration, with a sentiment score indicating a negative emotional tone. The patient's average words per turn and lexical diversity suggest a somewhat limited expressive range. The session touched on work, family, and uncertainty, but the patient's emotional state remains a primary concern.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "exploring coping mechanisms for managing overwhelm and improving sleep",
+    "notable_linguistic_patterns": [
+      "repetition of 'I've been feeling really overwhelmed lately' indicating stuckness, persistent negative self-talk"
+    ],
+    "session_id": 120,
+    "patient_id": "P029",
+    "cohort": "teen"
+  },
+  {
+    "session_summary": "The patient reports feeling disconnected from others and lacks energy, leading to canceled plans and a sense of disconnection. The patient's sentiment score is negative, and their lexical diversity is relatively low, indicating potential cognitive or emotional constraints. The patient's mood and affect are primary concerns, with a PHQ-9 proxy score of 14/27 indicating moderate depressive symptoms.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "exploring and addressing social withdrawal and energy management",
+    "notable_linguistic_patterns": [
+      "repetition of 'I feel disconnected' phrase, indicating potential rumination or stuck thinking",
+      "use of passive coping strategy ('taking things day by day')"
+    ],
+    "session_id": 121,
+    "patient_id": "P029",
+    "cohort": "teen"
+  },
+  {
+    "session_summary": "Could not parse LLM response.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "General support",
+    "notable_linguistic_patterns": [],
+    "session_id": 122,
+    "patient_id": "P030",
+    "cohort": "adult_general"
+  },
+  {
+    "session_summary": "The patient reports taking things day by day, experiencing sleep disturbances, and feeling pressured, likely due to work stress, but expresses some positive coping mechanisms such as reading. The patient's emotional expression remains neutral, and they struggle to elaborate on their thoughts and feelings. The session indicates a sense of stagnation and difficulty in articulating emotions.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "exploring the source and impact of work-related pressure",
+    "notable_linguistic_patterns": [
+      "repetition of 'work has been busy but nothing unusual'",
+      "use of the word 'should' indicating self-imposed pressure"
+    ],
+    "session_id": 123,
+    "patient_id": "P030",
+    "cohort": "adult_general"
+  },
+  {
+    "session_summary": "The patient reports feeling overwhelmed and worried about work, with a focus on upcoming events like meetings. They acknowledge that work has been busy, but nothing out of the ordinary, suggesting that their anxiety may be driven by internal factors rather than external circumstances. The patient's emotional expression is neutral, but their sentiment score indicates a negative outlook.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "exploring cognitive distortions and worry patterns",
+    "notable_linguistic_patterns": [
+      "repetition of phrases (e.g., 'Work has been busy but nothing unusual')",
+      "avoidance of emotional expression despite reported distress"
+    ],
+    "session_id": 124,
+    "patient_id": "P030",
+    "cohort": "adult_general"
+  },
+  {
+    "session_summary": "The patient is experiencing significant distress and overwhelm, primarily attributed to work stress, with symptoms of anxiety and insomnia. They report feeling unable to catch their breath and worry about future events. The patient's severity score of 20/27 indicates a moderate to high level of depression.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "cognitive restructuring to address worry and rumination patterns",
+    "notable_linguistic_patterns": [
+      "repetitive expressions of worry and overwhelm",
+      "lack of emotional vocabulary beyond 'overwhelmed' and 'Difficult'"
+    ],
+    "session_id": 125,
+    "patient_id": "P031",
+    "cohort": "veteran"
+  },
+  {
+    "session_summary": "The patient is experiencing anxiety and feelings of overwhelm, struggling to concentrate due to uncertainty, with a PHQ-9 proxy severity score of 12 indicating moderate depressive symptoms. The patient's lexical diversity and average words per turn suggest potential cognitive impairment or difficulty articulating thoughts. The session's dominant emotion of anxiety and negative sentiment score of -1.0 indicate a high level of distress.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "coping skills for managing uncertainty and anxiety",
+    "notable_linguistic_patterns": [
+      "repetition of phrases indicating distress",
+      "inability to provide clear causal attributions for feelings of overwhelm"
+    ],
+    "session_id": 126,
+    "patient_id": "P031",
+    "cohort": "veteran"
+  },
+  {
+    "session_summary": "The patient discussed their social interactions and coping mechanisms, including spending time with family and reading, while also expressing worries about future events. The patient's emotional tone was neutral, and they demonstrated a moderate level of lexical diversity. The patient's PHQ-9 proxy score indicates moderate to severe depressive symptoms.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "exploring and addressing worry patterns and cognitive distortions",
+    "notable_linguistic_patterns": [
+      "repetition of phrases",
+      "avoidance of emotional expression"
+    ],
+    "session_id": 127,
+    "patient_id": "P032",
+    "cohort": "adult_general"
+  },
+  {
+    "session_summary": "The patient is experiencing overwhelming anxiety, particularly related to an upcoming meeting, and is struggling with sleep and fatigue. They report feeling like they cannot catch their breath and are having trouble sleeping due to racing thoughts. The patient's sentiment score is -1.0, indicating a strongly negative emotional state.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "coping mechanisms for anxiety and sleep hygiene",
+    "notable_linguistic_patterns": [
+      "repetition of phrases (e.g., 'I've just been taking things day by day')",
+      "use of somatic complaints (e.g., 'my heart races')"
+    ],
+    "session_id": 128,
+    "patient_id": "P032",
+    "cohort": "adult_general"
+  },
+  {
+    "session_summary": "The patient is experiencing high levels of anxiety, overwhelming feelings, and sleep disturbances, which are impacting their daily life. They are struggling to manage their thoughts and emotions, particularly in relation to an upcoming meeting. The patient's PHQ-9 proxy score of 22/27 indicates severe depressive symptoms.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "high",
+    "recommended_focus": "coping mechanisms for anxiety and sleep management",
+    "notable_linguistic_patterns": [
+      "repetitive expressions of anxiety",
+      "rumination on future events"
+    ],
+    "session_id": 129,
+    "patient_id": "P033",
+    "cohort": "veteran"
+  },
+  {
+    "session_summary": "The patient is struggling with feelings of uncertainty, which affects their concentration, and has made some efforts to engage with their social support system, such as spending time with family. The patient's neutral dominant emotion and low sentiment score suggest a sense of emotional numbing. The session touched on the patient's use of the word 'should', indicating potential self-imposed pressure.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "exploring self-imposed pressure and its impact on mental health",
+    "notable_linguistic_patterns": [
+      "repetition of phrases",
+      "use of words indicating obligation or pressure, such as 'should'"
+    ],
+    "session_id": 130,
+    "patient_id": "P033",
+    "cohort": "veteran"
+  },
+  {
+    "session_summary": "The patient expresses feelings of disconnection and pointlessness, with work stress being a primary topic, but reports some positive activities like reading. The patient's sentiment score is negative and their lexical diversity is relatively low. The patient's average words per turn is also low, indicating potential difficulty in articulating their emotions.",
+    "engagement_level": "low",
+    "outcome_risk_flag": "high",
+    "recommended_focus": "exploring and addressing feelings of disconnection and isolation",
+    "notable_linguistic_patterns": [
+      "repetition of phrases like 'work has been busy but nothing unusual'",
+      "use of words indicating disconnection like 'disconnected' and 'don't see the point'"
+    ],
+    "session_id": 131,
+    "patient_id": "P033",
+    "cohort": "veteran"
+  },
+  {
+    "session_summary": "The patient presented with a neutral emotional tone and discussed taking things day by day, indicating a sense of coping with their current situation. They mentioned spending time with family and reading as positive experiences. The patient's overall severity score suggests moderate depressive symptoms.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "exploring social support networks",
+    "notable_linguistic_patterns": [
+      "repetitive phrasing",
+      "avoidance of emotional expression"
+    ],
+    "session_id": 132,
+    "patient_id": "P034",
+    "cohort": "postpartum"
+  },
+  {
+    "session_summary": "The patient reports a neutral emotional state and discusses work stress, while also mentioning positive activities like reading. The session reveals a sense of obligation and pressure, indicated by the use of the word 'should'. The patient's severity score of 16/27 suggests a moderate level of depressive symptoms.",
+    "engagement_level": "low",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "exploring the sources of pressure and obligation",
+    "notable_linguistic_patterns": [
+      "repetition of phrases",
+      "use of the word 'should'"
+    ],
+    "session_id": 133,
+    "patient_id": "P034",
+    "cohort": "postpartum"
+  },
+  {
+    "session_summary": "Could not parse LLM response.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "General support",
+    "notable_linguistic_patterns": [],
+    "session_id": 134,
+    "patient_id": "P034",
+    "cohort": "postpartum"
+  },
+  {
+    "session_summary": "Could not parse LLM response.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "General support",
+    "notable_linguistic_patterns": [],
+    "session_id": 135,
+    "patient_id": "P035",
+    "cohort": "teen"
+  },
+  {
+    "session_summary": "Could not parse LLM response.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "General support",
+    "notable_linguistic_patterns": [],
+    "session_id": 136,
+    "patient_id": "P035",
+    "cohort": "teen"
+  },
+  {
+    "session_summary": "The patient appears to be coping with work stress by taking things day by day and finding solace in reading, but the therapy session indicates a neutral dominant emotion and a moderate severity score, suggesting underlying concerns. The patient's lexical diversity and average words per turn are relatively low, which may indicate a lack of emotional expression or exploration. The therapist is attempting to gently probe for more insight into the patient's thoughts and feelings.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "emotional awareness and expression",
+    "notable_linguistic_patterns": [
+      "repetition of phrases (e.g., 'I've just been taking things day by day')",
+      "use of neutral or avoidant language (e.g., 'nothing unusual')"
+    ],
+    "session_id": 137,
+    "patient_id": "P035",
+    "cohort": "teen"
+  },
+  {
+    "session_summary": "The patient reported some positive experiences, such as spending time with family and trying a breathing exercise, which helped alleviate their symptoms. They also demonstrated a neutral emotional tone and a willingness to reflect on their feelings. Despite this, their PHQ-9 proxy score remains relatively high at 19/27.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "building resilience and coping skills",
+    "notable_linguistic_patterns": [
+      "repetition of positive experiences",
+      "use of phrases indicating self-reflection and insight"
+    ],
+    "session_id": 138,
+    "patient_id": "P035",
+    "cohort": "teen"
+  },
+  {
+    "session_summary": "The patient reported making progress by opening up to their sister and practicing anxiety management techniques, with a moderate sentiment score and a focus on social support. The patient's lexical diversity and word count per turn suggest a decent level of engagement. Despite this progress, the patient's PHQ-9 proxy score remains at 10, indicating ongoing symptoms of depression.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "exploring and strengthening social support networks",
+    "notable_linguistic_patterns": [
+      "increased use of positive self-talk",
+      "repeated references to social interactions"
+    ],
+    "session_id": 139,
+    "patient_id": "P035",
+    "cohort": "teen"
+  },
+  {
+    "session_summary": "The patient expressed feeling disconnected from activities and people that once brought them joy, and reported low energy levels leading to canceled plans. They also mentioned feeling disconnected from others, but attributed their busy work schedule as nothing unusual. The patient's overall sentiment score was negative, indicating a persisting low mood.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "high",
+    "recommended_focus": "exploring and addressing social isolation and disconnection",
+    "notable_linguistic_patterns": [
+      "repetition of negative self-statements",
+      "low lexical diversity indicating potential cognitive overload or depression"
+    ],
+    "session_id": 140,
+    "patient_id": "P035",
+    "cohort": "teen"
+  },
+  {
+    "session_summary": "The patient, a postpartum individual with a moderate severity score, discussed their struggles with energy and finding joy in activities, while also touching on social support and work demands. They expressed feelings of neutrality and seemed to be taking things day by day. The patient's emotional expression was muted, with a neutral dominant emotion and a sentiment score of 0.0.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "exploring the patient's loss of joy and pleasure in activities",
+    "notable_linguistic_patterns": [
+      "repeated mentions of 'not having the energy', 'canceling plans', and 'nothing really brings me joy' which may indicate a pattern of avoidance and anhedonia"
+    ],
+    "session_id": 141,
+    "patient_id": "P036",
+    "cohort": "postpartum"
+  },
+  {
+    "session_summary": "The patient reported a busy work schedule but expressed no unusual concerns, and demonstrated a neutral emotional tone throughout the session. They shared efforts to manage stress through reading and taking things day by day. The patient's severe PHQ-9 score indicates underlying distress despite a neutral presentation.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "exploring the disconnect between the patient's reported neutral emotions and high PHQ-9 score",
+    "notable_linguistic_patterns": [
+      "repetition of phrases (e.g., 'I've been reading more, which has been nice')",
+      "lack of emotional expression despite high severity score"
+    ],
+    "session_id": 142,
+    "patient_id": "P036",
+    "cohort": "postpartum"
+  },
+  {
+    "session_summary": "The patient reports a sense of progress and slight improvement in their mental state, having tried coping skills such as breathing exercises and going for walks. They express a willingness to continue exploring new strategies and reflect on their experiences. The patient's mood appears to be lifting, but they still acknowledge difficulties and pressures.",
+    "engagement_level": "high",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "Building resilience and exploring sources of pressure and self-criticism",
+    "notable_linguistic_patterns": [
+      "Repetition of positive experiences (e.g., 'I had a good week')",
+      "Use of exploratory language (e.g., 'What would it look like if things were even slightly better')"
+    ],
+    "session_id": 143,
+    "patient_id": "P036",
+    "cohort": "postpartum"
+  },
+  {
+    "session_summary": "The patient appears to be experiencing a high level of depressive symptoms, but has made some positive efforts to engage in self-care activities such as reading and walking. The patient also reported a positive interaction with their sister, indicating some social support. Despite these efforts, the patient's overall sentiment and emotional tone remain neutral.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "exploring and building on the patient's social support networks",
+    "notable_linguistic_patterns": [
+      "repetition of positive experiences",
+      "lack of emotional expression despite discussing positive events"
+    ],
+    "session_id": 144,
+    "patient_id": "P037",
+    "cohort": "postpartum"
+  },
+  {
+    "session_summary": "The patient reported taking things day by day and spending time with family, indicating some social support. Despite a neutral dominant emotion, the patient's sentiment score and lexical diversity suggest a lack of emotional expression and limited vocabulary. The patient's PHQ-9 proxy score of 19/27 indicates moderate to severe depressive symptoms.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "emotional expression and exploration",
+    "notable_linguistic_patterns": [
+      "repetitive statements",
+      "lack of affective language"
+    ],
+    "session_id": 145,
+    "patient_id": "P037",
+    "cohort": "postpartum"
+  },
+  {
+    "session_summary": "The patient is experiencing overwhelming feelings and work-related stress, with a neutral dominant emotion and a negative sentiment score. They are struggling to manage worries about future events and are having physical symptoms such as a racing heart. The patient's lexical diversity is low, indicating potential simplicity in their thought process.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "cognitive restructuring to address worries about future events",
+    "notable_linguistic_patterns": [
+      "repetition of worry statements",
+      "use of words indicating self-pressure (e.g., 'should')"
+    ],
+    "session_id": 146,
+    "patient_id": "P037",
+    "cohort": "postpartum"
+  },
+  {
+    "session_summary": "The patient reported a positive experience discussing their feelings with their sister and found the suggested breathing exercise helpful, indicating progress in managing their emotions. They also reported an improvement in their mood, with things feeling 'a little lighter' this week. The patient's severity score is 14, suggesting moderate symptoms of depression.",
+    "engagement_level": "high",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "exploring the patient's support system and coping mechanisms",
+    "notable_linguistic_patterns": [
+      "repetition of 'I hear you' phrases, potentially indicating a desire for validation or reassurance",
+      "use of 'should' statements, suggesting potential self-criticism or external pressure"
+    ],
+    "session_id": 147,
+    "patient_id": "P037",
+    "cohort": "postpartum"
+  },
+  {
+    "session_summary": "The patient presents with feelings of disconnection and a lack of joy in activities, indicating a significant decline in mood and motivation. The patient's PHQ-9 proxy score of 24/27 suggests severe depressive symptoms. The patient's neutral dominant emotion and low sentiment score further support this assessment.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "high",
+    "recommended_focus": "exploring and addressing the patient's lack of motivation and purpose",
+    "notable_linguistic_patterns": [
+      "repetitive negative self-statements",
+      "avoidance of emotional expression"
+    ],
+    "session_id": 148,
+    "patient_id": "P038",
+    "cohort": "veteran"
+  },
+  {
+    "session_summary": "The patient reports feeling overwhelmed and uncertain, with difficulty concentrating, and has been taking things day by day. The session touched on social support, with the patient mentioning time spent with family. The patient's PHQ-9 proxy score of 15/27 indicates moderate severity of depressive symptoms.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "coping mechanisms and strategies for managing uncertainty",
+    "notable_linguistic_patterns": [
+      "repeated expressions of uncertainty and overwhelm",
+      "use of avoidance-oriented language (e.g., 'taking things day by day')"
+    ],
+    "session_id": 149,
+    "patient_id": "P038",
+    "cohort": "veteran"
+  },
+  {
+    "session_summary": "The patient reports a slight improvement in their emotional state, with a sense of feeling 'a little lighter' and has been engaging in self-care activities such as reading and practicing breathing exercises. The patient's severity score remains moderate at 10/27. The patient's dominant emotion is neutral, indicating a stable emotional state.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "exploring coping skills and stress management techniques",
+    "notable_linguistic_patterns": [
+      "increased use of positive self-reporting language",
+      "use of brief and concise sentences indicating potential emotional reserve"
+    ],
+    "session_id": 150,
+    "patient_id": "P038",
+    "cohort": "veteran"
+  },
+  {
+    "session_summary": "The patient reported positive interactions with their sister and family, and demonstrated self-awareness by recognizing anxious moments and utilizing coping skills such as breathing exercises. The patient's mood was generally neutral, with a moderate severity score. They expressed a sense of taking things day by day, indicating a need for continued support and exploration of emotional experiences.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "exploring and expanding emotional awareness and regulation strategies",
+    "notable_linguistic_patterns": [
+      "repetition of positive social interactions",
+      "use of self-regulatory language (e.g., 'I paused', 'I've been reading')"
+    ],
+    "session_id": 151,
+    "patient_id": "P039",
+    "cohort": "adult_general"
+  },
+  {
+    "session_summary": "The patient reported a busy week at work, but expressed a sense of coping and taking things day by day. They also shared a positive experience discussing their feelings with their sister, indicating some social support. The patient's neutral dominant emotion and low sentiment score suggest a stable, but potentially guarded, emotional state.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "exploring emotional expression and bodily sensations",
+    "notable_linguistic_patterns": [
+      "repetition of phrases suggesting avoidance or coping mechanisms",
+      "increased lexical diversity when discussing social support"
+    ],
+    "session_id": 152,
+    "patient_id": "P039",
+    "cohort": "adult_general"
+  },
+  {
+    "session_summary": "The patient is experiencing persistent sadness and a lack of joy in activities, with a notable decline in energy levels and motivation. They have been canceling plans and struggling to find meaning in daily life. The patient's PHQ-9 proxy severity score of 12 indicates moderate depressive symptoms.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "increasing motivation and energy levels",
+    "notable_linguistic_patterns": [
+      "lack of positive affect",
+      "negative self-talk"
+    ],
+    "session_id": 153,
+    "patient_id": "P039",
+    "cohort": "adult_general"
+  },
+  {
+    "session_summary": "The patient reports feeling overwhelmed and anxious about work, with a sense of impending doom about upcoming events. They express a desire to make positive changes, but struggle with worry about future uncertainties. The patient's emotional state is marked by a sense of breathlessness and a racing heart.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "cognitive restructuring to address worry and anxiety",
+    "notable_linguistic_patterns": [
+      "repetition of phrases indicating worry about the future",
+      "use of metaphorical language to describe emotional state (e.g. 'can't catch a breath')"
+    ],
+    "session_id": 154,
+    "patient_id": "P039",
+    "cohort": "adult_general"
+  },
+  {
+    "session_summary": "Could not parse LLM response.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "General support",
+    "notable_linguistic_patterns": [],
+    "session_id": 155,
+    "patient_id": "P039",
+    "cohort": "adult_general"
+  },
+  {
+    "session_summary": "The patient reports feeling disconnected from others, lacking energy, and experiencing a decrease in joy, indicating significant depressive symptoms. The patient's language suggests a sense of hopelessness and detachment. The therapist's empathetic responses aim to foster a sense of safety and encouragement.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "exploring the patient's loss of meaning and purpose",
+    "notable_linguistic_patterns": [
+      "repeated use of 'I've been canceling plans' indicating avoidance behaviors",
+      "use of 'should' suggesting internalized pressure and potential self-criticism"
+    ],
+    "session_id": 156,
+    "patient_id": "P040",
+    "cohort": "adult_general"
+  },
+  {
+    "session_summary": "The patient reports a slightly improved mood and has engaged in positive activities such as reading and walking, but still expresses a high severity score on the PHQ-9 proxy, indicating ongoing distress. They have started to open up about their emotions with a supportive family member. The patient's lexical diversity and average words per turn suggest a moderate level of engagement and self-expression.",
+    "engagement_level": "medium",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "exploring the patient's support system and coping mechanisms to further improve their mood and reduce distress",
+    "notable_linguistic_patterns": [
+      "repetition of positive experiences",
+      "use of 'should' statements indicating potential self-criticism or external pressure"
+    ],
+    "session_id": 157,
+    "patient_id": "P040",
+    "cohort": "adult_general"
+  },
+  {
+    "session_summary": "The patient reported spending time with family and engaging in reading, but struggled to articulate their emotions and thoughts, indicating a sense of neutrality and potential difficulty in expressing feelings. The patient's severity score of 10/27 suggests moderate depressive symptoms. The patient's responses were brief, with an average of 7.8 words per turn, and low lexical diversity, which may indicate a lack of emotional expression or avoidance of certain topics.",
+    "engagement_level": "low",
+    "outcome_risk_flag": "moderate",
+    "recommended_focus": "emotional expression and awareness",
+    "notable_linguistic_patterns": [
+      "repetition of phrases",
+      "avoidance of emotional language"
+    ],
+    "session_id": 158,
+    "patient_id": "P040",
+    "cohort": "adult_general"
+  }
+]

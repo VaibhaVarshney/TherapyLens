@@ -1,0 +1,159 @@
+session_id,patient_id,cohort,session_number,severity_score,sentiment_score,dominant_emotion,primary_topic,avg_patient_words_per_turn,patient_lexical_diversity,engagement_level,outcome_risk_flag,recommended_focus
+1,P001,veteran,1,23,0.5,neutral,social_support,10.0,0.6575,medium,moderate,exploring and enhancing social support networks
+2,P001,veteran,2,12,-1.0,neutral,sleep_fatigue,9.29,0.6087,medium,moderate,Building social connections and improving sleep hygiene
+3,P001,veteran,3,21,-1.0,neutral,mood_affect,9.83,0.6984,medium,high,exploring and addressing the patient's feelings of disconnection and pointlessness
+4,P002,teen,1,15,-1.0,sadness,mood_affect,10.62,0.5,medium,moderate,exploring and addressing the patient's loss of joy and meaning in activities
+5,P002,teen,2,17,-1.0,neutral,work_stress,9.25,0.6173,medium,moderate,cognitive restructuring to address anticipatory anxiety
+6,P003,postpartum,1,11,0.3333,progress,coping_skills,12.2,0.4915,medium,moderate,General support
+7,P003,postpartum,2,21,-1.0,neutral,work_stress,9.25,0.75,medium,moderate,exploring emotional awareness and regulation
+8,P003,postpartum,3,13,-1.0,neutral,work_stress,9.33,0.6613,medium,moderate,exploring and reframing unrealistic expectations and self-imposed pressures
+9,P003,postpartum,4,17,-1.0,sadness,self_worth,10.4,0.6182,medium,moderate,exploring and addressing negative self-talk and self-worth
+10,P004,veteran,1,15,0.6,progress,coping_skills,9.38,0.6234,medium,moderate,exploring self-compassion and challenging negative self-talk
+11,P004,veteran,2,17,-1.0,neutral,sleep_fatigue,10.29,0.55,medium,moderate,sleep hygiene and stress management
+12,P005,teen,1,12,-1.0,neutral,sleep_fatigue,10.0,0.7188,medium,moderate,exploring and addressing the patient's feelings of disconnection and anhedonia
+13,P005,teen,2,22,-1.0,neutral,mood_affect,8.71,0.5806,medium,moderate,exploring and addressing social connections and relationships
+14,P005,teen,3,14,1.0,neutral,social_support,8.43,0.5806,medium,moderate,exploring and expanding emotional expression
+15,P005,teen,4,13,0.3333,progress,work_stress,8.5,0.7353,medium,moderate,exploring the source of internal pressure and 'should' statements
+16,P006,postpartum,1,20,0.0,neutral,work_stress,7.71,0.431,low,moderate,exploring the patient's work stress and its impact on their mental health
+17,P006,postpartum,2,20,-1.0,neutral,work_stress,9.8,0.6981,medium,moderate,exploring and addressing social disconnection and loss of meaning
+18,P006,postpartum,3,16,0.0,neutral,work_stress,8.4,0.4783,low,moderate,exploring and addressing work-related stress and anxiety
+19,P006,postpartum,4,14,-1.0,neutral,work_stress,8.86,0.5556,medium,moderate,exploring social connections and support systems
+20,P006,postpartum,5,19,-1.0,neutral,social_support,9.2,0.5957,medium,moderate,motivation and purpose rebuilding
+21,P006,postpartum,6,21,0.0,neutral,mood_affect,9.6,0.6275,medium,high,increasing pleasure and engagement in activities
+22,P007,postpartum,1,13,0.5,neutral,social_support,10.25,0.5,medium,moderate,exploring sources of anxiety and pressure
+23,P007,postpartum,2,14,-1.0,neutral,sleep_fatigue,9.43,0.5362,medium,moderate,exploring and addressing sleep hygiene and fatigue management strategies
+24,P007,postpartum,3,12,-1.0,anxiety,sleep_fatigue,10.14,0.6234,medium,moderate,cognitive restructuring to address worries and uncertainties
+25,P007,postpartum,4,18,-1.0,neutral,sleep_fatigue,9.0,0.6458,medium,moderate,exploring coping mechanisms for managing sleep and fatigue
+26,P007,postpartum,5,10,-1.0,neutral,social_support,8.4,0.75,medium,moderate,social support networks and relationships
+27,P008,postpartum,1,21,-1.0,depression,sleep_fatigue,10.2,0.7091,medium,high,energy and motivation enhancement strategies
+28,P008,postpartum,2,10,0.5,progress,coping_skills,10.4,0.717,medium,moderate,exploring sources of pressure and self-criticism
+29,P009,postpartum,1,13,-1.0,depression,self_worth,10.38,0.4286,medium,moderate,exploring and challenging negative self-talk and 'should' statements
+30,P009,postpartum,2,16,1.0,neutral,coping_skills,8.4,0.6222,medium,moderate,emotional awareness and expression
+31,P009,postpartum,3,13,0.0,neutral,social_support,8.0,0.3333,low,moderate,emotional exploration and expression
+32,P009,postpartum,4,11,0.0,depression,mood_affect,10.6,0.3559,medium,moderate,exploring and addressing anhedonia
+33,P009,postpartum,5,17,-1.0,sadness,mood_affect,10.5,0.5507,medium,high,increasing social support and connection
+34,P010,postpartum,1,21,0.6,progress,social_support,9.86,0.7465,medium,moderate,exploring and enhancing social support networks
+35,P010,postpartum,2,15,0.5,neutral,social_support,8.88,0.5775,medium,moderate,exploiting social support networks
+36,P010,postpartum,3,23,-1.0,anxiety,social_support,9.38,0.4634,medium,high,cognitive restructuring to manage anxiety and uncertainty
+37,P010,postpartum,4,13,1.0,neutral,social_support,10.4,0.7692,medium,moderate,exploring physical sensations and emotional correlations
+38,P010,postpartum,5,11,0.6,progress,coping_skills,11.6,0.6316,medium,low,building on coping skills and exploring the sources of pressure and anxiety
+39,P010,postpartum,6,10,0.0,neutral,social_support,7.88,0.3731,low,moderate,exploring emotional experiences and increasing self-awareness
+40,P011,adult_general,1,13,0.0,neutral,work_stress,8.25,0.5775,medium,moderate,exploring and addressing worries about the future
+41,P011,adult_general,2,12,-1.0,neutral,sleep_fatigue,8.88,0.6234,medium,moderate,cognitive restructuring to address worry and uncertainty
+42,P011,adult_general,3,11,0.0,neutral,work_stress,7.71,0.3621,low,moderate,exploring and labeling emotions
+43,P011,adult_general,4,18,0.0,neutral,work_stress,7.6,0.439,low,moderate,exploring underlying emotions and pressures contributing to work stress
+44,P011,adult_general,5,12,-1.0,neutral,sleep_fatigue,10.88,0.4,medium,moderate,coping mechanisms for stress and anxiety
+45,P011,adult_general,6,14,1.0,progress,mood_affect,7.75,0.3871,medium,moderate,exploring the origins of self-imposed pressure and 'should' statements
+46,P012,postpartum,1,14,0.0,neutral,social_support,7.75,0.3788,medium,moderate,exploring emotional regulation and coping mechanisms
+47,P012,postpartum,2,19,-1.0,neutral,sleep_fatigue,9.12,0.6316,medium,moderate,exploring and addressing feelings of hopelessness and lack of motivation
+48,P012,postpartum,3,19,-1.0,neutral,sleep_fatigue,9.29,0.4861,medium,high,exploring the sources of pressure and guilt associated with the patient's use of the word 'should'
+49,P013,teen,1,21,1.0,progress,social_support,10.8,0.625,medium,moderate,"exploring the sources of pressure and negative self-talk, as hinted at by the therapist's mention of the word 'should'"
+50,P013,teen,2,23,-1.0,neutral,work_stress,9.33,0.5424,medium,high,exploring and enhancing motivation and purpose
+51,P013,teen,3,20,1.0,neutral,social_support,10.6,0.7115,medium,moderate,exploring the patient's support network and coping mechanisms
+52,P013,teen,4,11,-1.0,anxiety,work_stress,8.86,0.4853,medium,moderate,cognitive restructuring to address catastrophic thinking
+53,P014,postpartum,1,15,-1.0,anxiety,social_support,9.4,0.76,medium,moderate,coping mechanisms for anxiety and uncertainty
+54,P014,postpartum,2,20,-1.0,neutral,work_stress,9.25,0.5132,medium,moderate,General support
+55,P014,postpartum,3,19,-1.0,neutral,sleep_fatigue,9.29,0.5455,medium,moderate,exploring and addressing social disconnection and its impact on mental health
+56,P015,postpartum,1,19,0.6,progress,social_support,11.0,0.5506,medium,moderate,coping mechanisms and self-care strategies
+57,P015,postpartum,2,16,0.6667,progress,coping_skills,10.38,0.6747,high,moderate,building resilience
+58,P016,teen,1,13,-1.0,anxiety,social_support,10.0,0.5357,medium,moderate,exploring sources of pressure and uncertainty
+59,P016,teen,2,18,0.0,neutral,sleep_fatigue,9.12,0.5641,medium,moderate,anxiety management
+60,P016,teen,3,16,1.0,progress,social_support,10.8,0.6296,high,moderate,exploring the sources of pressure and expectations that may be contributing to the patient's distress
+61,P017,postpartum,1,20,0.0,neutral,work_stress,7.4,0.5526,medium,moderate,exploring and processing emotions underlying reported stress and daily functioning
+62,P017,postpartum,2,21,1.0,progress,coping_skills,10.2,0.6415,medium,moderate,exploring the source of pressure and 'should' statements
+63,P018,teen,1,12,-1.0,neutral,sleep_fatigue,8.29,0.4262,medium,moderate,exploring underlying causes of sleep disturbances and fatigue
+64,P018,teen,2,22,0.0,neutral,social_support,7.75,0.3788,medium,moderate,exploring and enhancing emotional awareness and expression
+65,P018,teen,3,21,-1.0,neutral,work_stress,9.86,0.4231,medium,moderate,General support
+66,P018,teen,4,11,1.0,progress,social_support,10.33,0.5968,medium,moderate,exploring emotional regulation strategies
+67,P018,teen,5,17,-1.0,neutral,sleep_fatigue,8.83,0.8596,medium,moderate,exploring and addressing the sources of pressure and uncertainty
+68,P019,veteran,1,22,-1.0,neutral,sleep_fatigue,9.5,0.871,medium,high,sleep_fatigue
+69,P019,veteran,2,21,0.0,neutral,social_support,8.0,0.3846,medium,moderate,exploring the patient's emotional experience and underlying pressures
+70,P019,veteran,3,15,-1.0,neutral,work_stress,8.62,0.6216,medium,moderate,exploring coping mechanisms for managing worry and uncertainty
+71,P019,veteran,4,16,0.0,neutral,work_stress,8.62,0.4342,medium,moderate,General support
+72,P019,veteran,5,14,-1.0,neutral,sleep_fatigue,9.67,0.8548,medium,moderate,"exploring and addressing the patient's anxiety and uncertainty, particularly in relation to their upcoming meeting and work-related stress"
+73,P020,veteran,1,19,0.6,progress,social_support,11.25,0.5444,high,moderate,exploring and building on the patient's growing self-awareness and courage in trying new activities
+74,P020,veteran,2,16,0.5,neutral,coping_skills,10.88,0.5455,medium,moderate,building self-efficacy and exploring sources of pressure and anxiety
+75,P020,veteran,3,16,-1.0,anxiety,sleep_fatigue,10.0,0.5,medium,moderate,exploring coping mechanisms for managing uncertainty and anxiety
+76,P020,veteran,4,20,-1.0,sadness,mood_affect,11.0,0.5294,medium,moderate,exploring and challenging negative thought patterns
+77,P020,veteran,5,11,0.0,neutral,work_stress,9.17,0.6842,medium,moderate,exploring and reframing negative self-talk and work-related stress
+78,P020,veteran,6,14,0.5,progress,social_support,9.14,0.6154,medium,moderate,exploring and reinforcing social support networks
+79,P021,adult_general,1,17,0.0,neutral,work_stress,7.71,0.3051,medium,moderate,General support
+80,P021,adult_general,2,11,-1.0,neutral,sleep_fatigue,9.38,0.6282,medium,moderate,General support
+81,P021,adult_general,3,15,-1.0,neutral,work_stress,8.5,0.7297,medium,moderate,exploring the sources of pressure and uncertainty driving the patient's worries
+82,P021,adult_general,4,11,0.0,neutral,work_stress,8.75,0.7632,medium,moderate,"exploring and challenging negative thought patterns, particularly those related to work stress and anxiety"
+83,P021,adult_general,5,17,-1.0,neutral,sleep_fatigue,9.0,0.5634,medium,moderate,General support
+84,P022,veteran,1,15,0.0,neutral,work_stress,7.67,0.4286,medium,moderate,exploring the sources of pressure and perfectionism implied by the patient's use of the word 'should'
+85,P022,veteran,2,20,0.0,neutral,social_support,7.86,0.4237,low,moderate,emotional awareness and expression
+86,P022,veteran,3,23,-1.0,sadness,mood_affect,10.29,0.4474,medium,high,increasing social connection and support
+87,P022,veteran,4,13,0.0,neutral,social_support,8.25,0.8529,medium,moderate,General support
+88,P023,postpartum,1,19,-1.0,neutral,self_worth,10.0,0.44,medium,moderate,exploring self-worth and the sources of pressure related to the patient's use of the word 'should'
+89,P023,postpartum,2,16,-1.0,neutral,sleep_fatigue,8.17,0.4906,medium,moderate,exploring the patient's emotional experience and potential sources of pressure or guilt
+90,P023,postpartum,3,20,0.0,neutral,social_support,7.86,0.4386,low,moderate,exploring emotional experience and underlying pressures
+91,P023,postpartum,4,13,0.3333,neutral,social_support,10.0,0.7308,medium,moderate,building resilience and coping strategies
+92,P023,postpartum,5,16,-1.0,neutral,sleep_fatigue,8.25,0.3714,medium,moderate,General support
+93,P023,postpartum,6,11,-1.0,neutral,social_support,8.71,0.5303,medium,moderate,increasing motivation and energy
+94,P024,veteran,1,15,-1.0,anxiety,sleep_fatigue,10.57,0.4684,medium,moderate,addressing sleep hygiene and anxiety management techniques
+95,P024,veteran,2,15,-1.0,neutral,sleep_fatigue,10.57,0.4458,medium,moderate,cognitive restructuring to address worries about the future
+96,P024,veteran,3,10,-1.0,neutral,sleep_fatigue,9.75,0.5301,medium,moderate,cognitive restructuring to address worries about future events
+97,P025,postpartum,1,14,-1.0,neutral,mood_affect,9.67,0.5902,medium,moderate,General support
+98,P025,postpartum,2,15,-1.0,neutral,work_stress,8.38,0.5775,medium,moderate,coping mechanisms for managing work-related anxiety
+99,P025,postpartum,3,20,0.3333,neutral,coping_skills,10.71,0.4342,medium,moderate,"exploring and addressing underlying pressures and expectations, particularly those related to the use of 'should' statements"
+100,P025,postpartum,4,11,-1.0,neutral,social_support,9.0,0.7167,medium,moderate,cognitive restructuring to address worries about future events
+101,P025,postpartum,5,10,1.0,progress,social_support,13.4,0.3134,medium,low,exploring self-criticism and pressure
+102,P026,veteran,1,13,0.0,neutral,coping_skills,9.8,0.6,medium,moderate,exploring coping skills and self-compassion
+103,P026,veteran,2,21,-1.0,neutral,sleep_fatigue,8.6,0.7609,medium,moderate,exploring coping mechanisms for uncertainty and sleep disturbances
+104,P026,veteran,3,15,0.3333,neutral,social_support,10.5,0.8333,medium,moderate,exploring the sources of pressure and obligation
+105,P026,veteran,4,15,0.0,neutral,work_stress,8.6,0.5957,medium,moderate,exploring the patient's values and sense of purpose
+106,P026,veteran,5,19,-1.0,neutral,work_stress,9.0,0.5606,medium,moderate,exploring the sources of pressure and lack of joy in daily activities
+107,P027,veteran,1,12,0.0,neutral,work_stress,7.8,0.3023,low,moderate,exploring emotional avoidance and increasing self-expression
+108,P027,veteran,2,15,-1.0,anxiety,sleep_fatigue,9.88,0.6163,medium,moderate,cognitive restructuring to address worry and rumination patterns
+109,P027,veteran,3,17,-1.0,neutral,social_support,9.0,0.7708,medium,moderate,improving social support networks
+110,P027,veteran,4,20,-1.0,neutral,work_stress,8.62,0.64,medium,moderate,exploring the patient's use of the word 'should' and its relation to self-imposed pressure and anxiety
+111,P027,veteran,5,22,0.0,neutral,work_stress,8.75,0.3333,medium,high,exploring energy management and coping strategies
+112,P027,veteran,6,16,-1.0,neutral,work_stress,9.75,0.6429,medium,moderate,cognitive restructuring to address 'should' statements and reduce self-imposed pressure
+113,P028,veteran,1,12,1.0,progress,social_support,10.83,0.5938,high,low,exploring the source of pressure and self-criticism associated with the word 'should'
+114,P028,veteran,2,16,0.0,neutral,social_support,7.8,0.5952,medium,moderate,exploring the patient's use of the word 'should' and its relation to self-pressure and expectations
+115,P028,veteran,3,15,1.0,progress,coping_skills,12.17,0.4028,high,low,exploring sources of pressure and self-criticism
+116,P028,veteran,4,11,0.5,progress,coping_skills,10.83,0.6119,high,moderate,building resilience
+117,P029,teen,1,20,-1.0,neutral,work_stress,8.14,0.5806,medium,moderate,exploring sources of pressure and uncertainty
+118,P029,teen,2,14,0.0,neutral,social_support,7.83,0.4902,medium,moderate,emotional expression and exploration
+119,P029,teen,3,10,-1.0,neutral,sleep_fatigue,9.4,0.7308,medium,moderate,exploring cognitive distortions and worry patterns
+120,P029,teen,4,15,-1.0,neutral,sleep_fatigue,9.5,0.6506,medium,moderate,exploring coping mechanisms for managing overwhelm and improving sleep
+121,P029,teen,5,14,-1.0,neutral,mood_affect,9.83,0.4839,medium,moderate,exploring and addressing social withdrawal and energy management
+122,P030,adult_general,1,14,-1.0,neutral,social_support,9.12,0.6154,medium,moderate,General support
+123,P030,adult_general,2,12,0.0,neutral,work_stress,8.17,0.5577,medium,moderate,exploring the source and impact of work-related pressure
+124,P030,adult_general,3,16,-1.0,neutral,work_stress,8.57,0.6094,medium,moderate,exploring cognitive distortions and worry patterns
+125,P031,veteran,1,20,-1.0,neutral,work_stress,9.5,0.6341,medium,moderate,cognitive restructuring to address worry and rumination patterns
+126,P031,veteran,2,12,-1.0,anxiety,sleep_fatigue,10.5,0.4792,medium,moderate,coping skills for managing uncertainty and anxiety
+127,P032,adult_general,1,15,0.0,neutral,social_support,8.2,0.5455,medium,moderate,exploring and addressing worry patterns and cognitive distortions
+128,P032,adult_general,2,20,-1.0,anxiety,sleep_fatigue,10.0,0.6545,medium,moderate,coping mechanisms for anxiety and sleep hygiene
+129,P033,veteran,1,22,-1.0,anxiety,sleep_fatigue,10.25,0.4889,medium,high,coping mechanisms for anxiety and sleep management
+130,P033,veteran,2,13,-1.0,neutral,social_support,8.5,0.5,medium,moderate,exploring self-imposed pressure and its impact on mental health
+131,P033,veteran,3,23,-1.0,neutral,work_stress,8.62,0.589,low,high,exploring and addressing feelings of disconnection and isolation
+132,P034,postpartum,1,15,0.0,neutral,social_support,8.0,0.3279,medium,moderate,exploring social support networks
+133,P034,postpartum,2,16,0.0,neutral,work_stress,7.5,0.375,low,moderate,exploring the sources of pressure and obligation
+134,P034,postpartum,3,16,-1.0,neutral,mood_affect,10.0,0.5781,medium,moderate,General support
+135,P035,teen,1,17,0.0,neutral,social_support,9.12,0.4938,medium,moderate,General support
+136,P035,teen,2,23,0.0,neutral,work_stress,7.71,0.3621,medium,moderate,General support
+137,P035,teen,3,19,0.0,neutral,work_stress,7.8,0.4186,medium,moderate,emotional awareness and expression
+138,P035,teen,4,19,1.0,neutral,coping_skills,8.71,0.5556,medium,moderate,building resilience and coping skills
+139,P035,teen,5,10,0.3333,progress,social_support,10.2,0.6731,medium,moderate,exploring and strengthening social support networks
+140,P035,teen,6,21,-1.0,neutral,mood_affect,9.8,0.6275,medium,high,exploring and addressing social isolation and disconnection
+141,P036,postpartum,1,12,0.0,neutral,social_support,9.38,0.5854,medium,moderate,exploring the patient's loss of joy and pleasure in activities
+142,P036,postpartum,2,18,0.0,neutral,work_stress,7.62,0.2727,medium,moderate,exploring the disconnect between the patient's reported neutral emotions and high PHQ-9 score
+143,P036,postpartum,3,11,1.0,progress,coping_skills,11.29,0.5385,high,moderate,Building resilience and exploring sources of pressure and self-criticism
+144,P037,postpartum,1,22,1.0,neutral,social_support,11.17,0.5147,medium,moderate,exploring and building on the patient's social support networks
+145,P037,postpartum,2,19,0.0,neutral,social_support,8.0,0.5882,medium,moderate,emotional expression and exploration
+146,P037,postpartum,3,14,-1.0,neutral,work_stress,9.71,0.5,medium,moderate,cognitive restructuring to address worries about future events
+147,P037,postpartum,4,14,1.0,progress,social_support,11.5,0.4516,high,moderate,exploring the patient's support system and coping mechanisms
+148,P038,veteran,1,24,-1.0,neutral,mood_affect,10.29,0.5513,medium,high,exploring and addressing the patient's lack of motivation and purpose
+149,P038,veteran,2,15,-1.0,neutral,social_support,9.25,0.8537,medium,moderate,coping mechanisms and strategies for managing uncertainty
+150,P038,veteran,3,10,1.0,neutral,coping_skills,8.25,0.8824,medium,moderate,exploring coping skills and stress management techniques
+151,P039,adult_general,1,16,0.5,neutral,social_support,10.38,0.6235,medium,moderate,exploring and expanding emotional awareness and regulation strategies
+152,P039,adult_general,2,18,1.0,neutral,social_support,10.4,0.6923,medium,moderate,exploring emotional expression and bodily sensations
+153,P039,adult_general,3,12,0.0,sadness,mood_affect,10.25,0.7111,medium,moderate,increasing motivation and energy levels
+154,P039,adult_general,4,19,-1.0,neutral,work_stress,9.88,0.4432,medium,moderate,cognitive restructuring to address worry and anxiety
+155,P039,adult_general,5,18,1.0,neutral,social_support,9.75,0.8205,medium,moderate,General support
+156,P040,adult_general,1,13,-1.0,sadness,mood_affect,10.25,0.427,medium,moderate,exploring the patient's loss of meaning and purpose
+157,P040,adult_general,2,22,1.0,neutral,social_support,11.0,0.6061,medium,moderate,exploring the patient's support system and coping mechanisms to further improve their mood and reduce distress
+158,P040,adult_general,3,10,0.0,neutral,social_support,7.8,0.6098,low,moderate,emotional expression and awareness
