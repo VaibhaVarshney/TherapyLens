@@ -75,7 +75,8 @@ with st.sidebar:
     page = st.radio(
         "Navigate",
         ["📊 Overview", "😔 Sentiment & Emotion", "⚠️ Bias Audit",
-         "📝 Session Summaries", "📈 Patient Timeline", "🗂️ Topic Distribution"],
+         "📝 Session Summaries", "📈 Patient Timeline", "🗂️ Topic Distribution",
+         "🧪 Live Session Analysis"],
         label_visibility="collapsed",
     )
 
@@ -333,9 +334,10 @@ elif page == "📝 Session Summaries":
             c1.metric("Engagement", row["engagement_level"].title())
             c2.metric("Outcome Risk", row["outcome_risk_flag"].title())
             c3.metric("Recommended Focus", row["recommended_focus"])
-            if row.get("notable_linguistic_patterns"):
+            patterns = row.get("notable_linguistic_patterns")
+            if patterns and isinstance(patterns, list):
                 st.markdown("**Linguistic Patterns:**")
-                for p in row["notable_linguistic_patterns"]:
+                for p in patterns:
                     st.markdown(f"- {p}")
 
 
@@ -481,3 +483,235 @@ elif page == "🗂️ Topic Distribution":
                        xaxis_title="", yaxis_title="Sessions",
                        xaxis_tickangle=-30)
     st.plotly_chart(fig4, use_container_width=True)
+
+
+# ══════════════════════════════════════════════════════════════════════════════
+# PAGE: LIVE SESSION ANALYSIS
+# ══════════════════════════════════════════════════════════════════════════════
+elif page == "🧪 Live Session Analysis":
+    import re
+    from collections import Counter
+    from groq import Groq
+    from dotenv import load_dotenv
+    load_dotenv()
+
+    st.title("🧪 Live Session Analysis")
+    st.caption("Fill in the form below — the pipeline runs NLP analysis and calls the Groq LLM to generate a real clinical summary.")
+    st.divider()
+
+    # ── Inline NLP helpers (mirrors pipeline logic, no Session object needed) ──
+    EMOTION_LEXICON = {
+        "anxiety":    ["overwhelmed", "worried", "racing", "anxious", "nervous", "uncertain", "heart", "scared", "panic"],
+        "sadness":    ["don't see the point", "disconnected", "joy", "crying", "sad", "hopeless", "lonely", "isolated"],
+        "depression": ["bed", "canceling", "no energy", "empty", "numb", "worthless"],
+        "progress":   ["helped", "walk", "good week", "lighter", "practiced", "noticed", "talked"],
+        "neutral":    ["day by day", "busy", "reading", "family", "work"],
+    }
+    SENTIMENT_POS = {"helped", "good", "better", "lighter",
+                     "walked", "talked", "noticed", "courage", "effort"}
+    SENTIMENT_NEG = {"overwhelmed", "worried", "difficult", "hard",
+                     "sad", "anxious", "disconnected", "hopeless", "alone"}
+    TOPIC_SEEDS = {
+        "sleep_fatigue":  ["sleep", "tired", "exhausted", "rest", "bed", "night", "awake"],
+        "social_support": ["family", "sister", "friend", "talked", "connected", "relationship", "alone"],
+        "work_stress":    ["work", "job", "meeting", "boss", "deadline", "office", "career"],
+        "coping_skills":  ["breathing", "exercise", "walk", "practice", "noticed", "pause", "journal"],
+        "mood_affect":    ["joy", "happy", "sad", "feel", "emotion", "mood", "dark", "light"],
+        "self_worth":     ["point", "worthless", "valuable", "should", "failure", "proud", "accomplish"],
+    }
+
+    def run_sentiment(text):
+        text_lower = text.lower()
+        scores = {}
+        for emotion, keywords in EMOTION_LEXICON.items():
+            hits = sum(1 for kw in keywords if kw in text_lower)
+            scores[emotion] = round(hits / max(len(keywords), 1), 4)
+        total = sum(scores.values()) or 1
+        emotions = {k: round(v / total, 4) for k, v in scores.items()}
+        dominant = max(emotions, key=emotions.get)
+        words = set(re.findall(r'\b\w+\b', text_lower))
+        pos = len(words & SENTIMENT_POS)
+        neg = len(words & SENTIMENT_NEG)
+        sentiment = round((pos - neg) / (pos + neg), 4) if (pos + neg) else 0.0
+        return emotions, dominant, sentiment
+
+    def run_topics(text):
+        words = re.findall(r'\b\w+\b', text.lower())
+        freq = Counter(words)
+        scores = {t: sum(freq.get(w, 0) for w in seeds)
+                  for t, seeds in TOPIC_SEEDS.items()}
+        total = sum(scores.values()) or 1
+        topics = {k: round(v / total, 4) for k, v in scores.items()}
+        return topics, max(topics, key=topics.get)
+
+    def run_engagement(patient_text):
+        tokens = re.findall(r'\b\w+\b', patient_text.lower())
+        turns = [t.strip() for t in patient_text.split('\n') if t.strip()]
+        avg_words = round(len(tokens) / max(len(turns), 1), 2)
+        ttr = round(len(set(tokens)) / max(len(tokens), 1), 4)
+        return avg_words, ttr
+
+    def call_groq(cohort, session_number, severity, dominant_emotion,
+                  sentiment_score, primary_topic, avg_words, ttr, transcript):
+        api_key = os.environ.get("GROQ_API_KEY", "")
+        if not api_key:
+            return None, "GROQ_API_KEY not found in .env"
+        client = Groq(api_key=api_key)
+        prompt = f"""You are a clinical NLP assistant. Analyze this de-identified therapy session.
+
+SESSION METADATA:
+- Cohort: {cohort}
+- Session number: {session_number}
+- Severity score (PHQ-9 proxy): {severity}/27
+
+NLP SIGNALS:
+- Dominant emotion: {dominant_emotion}
+- Sentiment score: {sentiment_score} (range -1 to +1)
+- Primary topic: {primary_topic}
+- Patient avg words/turn: {avg_words}
+- Patient lexical diversity (TTR): {ttr}
+
+TRANSCRIPT EXCERPT:
+{transcript[:800]}...
+
+Respond ONLY with valid JSON matching this schema:
+{{
+  "session_summary": "<2-3 sentence clinical summary>",
+  "engagement_level": "low|medium|high",
+  "outcome_risk_flag": "low|moderate|high",
+  "recommended_focus": "<one clinical focus area for next session>",
+  "notable_linguistic_patterns": ["<pattern1>", "<pattern2>"]
+}}"""
+        try:
+            message = client.chat.completions.create(
+                model="llama-3.3-70b-versatile",
+                messages=[{"role": "user", "content": prompt}],
+                max_tokens=512,
+            )
+            raw = message.choices[0].message.content.strip()
+            if raw.startswith("```"):
+                raw = raw.split("```")[1]
+                if raw.startswith("json"):
+                    raw = raw[4:]
+                raw = raw.strip()
+            return json.loads(raw), None
+        except Exception as e:
+            return None, str(e)
+
+    # ── Form ──────────────────────────────────────────────────────────────────
+    with st.form("live_analysis_form"):
+        st.markdown('<p class="section-title">Session Metadata</p>',
+                    unsafe_allow_html=True)
+        col1, col2, col3 = st.columns(3)
+        cohort = col1.selectbox(
+            "Cohort", ["adult_general", "teen", "postpartum", "veteran"])
+        session_number = col2.number_input(
+            "Session Number", min_value=1, max_value=50, value=1)
+        severity = col3.slider("Severity Score (PHQ-9 proxy)", 0, 27, 10,
+                               help="0 = minimal, 27 = severe")
+
+        st.markdown('<p class="section-title">Patient Transcript</p>',
+                    unsafe_allow_html=True)
+        st.caption("Paste or type what the patient said. Each line = one turn.")
+        patient_text = st.text_area(
+            "Patient dialogue",
+            height=200,
+            placeholder="I've been feeling really anxious lately, can't sleep...\nWork has been overwhelming, I keep canceling plans with friends.\nI tried the breathing exercise you mentioned, it helped a little.",
+            label_visibility="collapsed",
+        )
+
+        st.markdown(
+            '<p class="section-title">Therapist Transcript (optional)</p>', unsafe_allow_html=True)
+        therapist_text = st.text_area(
+            "Therapist dialogue",
+            height=100,
+            placeholder="How have you been sleeping this week?\nWhat strategies have you tried so far?",
+            label_visibility="collapsed",
+        )
+
+        submitted = st.form_submit_button(
+            "🔍 Run Analysis", use_container_width=True)
+
+    # ── Results ───────────────────────────────────────────────────────────────
+    if submitted:
+        if not patient_text.strip():
+            st.error("Please enter at least some patient dialogue.")
+        else:
+            full_text = patient_text + " " + therapist_text
+
+            with st.spinner("Running NLP analysis..."):
+                emotions, dominant_emotion, sentiment_score = run_sentiment(
+                    patient_text)
+                topics, primary_topic = run_topics(patient_text)
+                avg_words, ttr = run_engagement(patient_text)
+
+            st.divider()
+            st.markdown("### 📊 NLP Results")
+
+            # KPI strip
+            c1, c2, c3, c4, c5 = st.columns(5)
+            c1.metric("Sentiment Score", sentiment_score)
+            c2.metric("Dominant Emotion", dominant_emotion.title())
+            c3.metric("Primary Topic", primary_topic.replace("_", " ").title())
+            c4.metric("Avg Words / Turn", avg_words)
+            c5.metric("Lexical Diversity", ttr)
+
+            col1, col2 = st.columns(2)
+
+            with col1:
+                st.markdown(
+                    '<p class="section-title">Emotion Scores</p>', unsafe_allow_html=True)
+                em_df = pd.DataFrame(list(emotions.items()), columns=[
+                                     "Emotion", "Score"])
+                fig = px.bar(em_df, x="Emotion", y="Score", color="Score",
+                             color_continuous_scale="Purples", template="plotly_dark",
+                             text=em_df["Score"].round(3))
+                fig.update_layout(plot_bgcolor="#1e2130", paper_bgcolor="#1e2130",
+                                  showlegend=False)
+                st.plotly_chart(fig, use_container_width=True)
+
+            with col2:
+                st.markdown(
+                    '<p class="section-title">Topic Scores</p>', unsafe_allow_html=True)
+                top_df = pd.DataFrame(
+                    list(topics.items()), columns=["Topic", "Score"])
+                top_df["Topic"] = top_df["Topic"].str.replace(
+                    "_", " ").str.title()
+                fig2 = px.bar(top_df, x="Score", y="Topic", orientation="h",
+                              color="Score", color_continuous_scale="Teal",
+                              template="plotly_dark", text=top_df["Score"].round(3))
+                fig2.update_layout(plot_bgcolor="#1e2130", paper_bgcolor="#1e2130",
+                                   showlegend=False, yaxis=dict(autorange="reversed"))
+                st.plotly_chart(fig2, use_container_width=True)
+
+            st.divider()
+            st.markdown("### 🤖 Groq LLM Clinical Summary")
+
+            with st.spinner("Calling Groq LLaMA-3.3-70b..."):
+                result, error = call_groq(
+                    cohort, session_number, severity,
+                    dominant_emotion, sentiment_score, primary_topic,
+                    avg_words, ttr, full_text,
+                )
+
+            if error:
+                st.error(f"LLM call failed: {error}")
+            else:
+                risk_color = {"high": "🔴", "moderate": "🟡", "low": "🟢"}.get(
+                    result.get("outcome_risk_flag", ""), "⚪")
+
+                st.info(f"**Summary:** {result.get('session_summary', 'N/A')}")
+
+                c1, c2, c3 = st.columns(3)
+                c1.metric("Engagement Level", result.get(
+                    "engagement_level", "N/A").title())
+                c2.metric(
+                    "Outcome Risk", f"{risk_color} {result.get('outcome_risk_flag', 'N/A').title()}")
+                c3.metric("Recommended Focus", result.get(
+                    "recommended_focus", "N/A"))
+
+                patterns = result.get("notable_linguistic_patterns", [])
+                if patterns:
+                    st.markdown("**Notable Linguistic Patterns:**")
+                    for p in patterns:
+                        st.markdown(f"- {p}")
