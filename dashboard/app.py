@@ -330,10 +330,13 @@ elif page == "📝 Session Summaries":
             f"{risk_color} **{row['patient_id']}** · Session {row['session_id']} · {row['cohort']} · Risk: {row['outcome_risk_flag']}"
         ):
             st.markdown(f"**Summary:** {row['session_summary']}")
-            c1, c2, c3 = st.columns(3)
-            c1.metric("Engagement", row["engagement_level"].title())
-            c2.metric("Outcome Risk", row["outcome_risk_flag"].title())
-            c3.metric("Recommended Focus", row["recommended_focus"])
+            c1, c2 = st.columns(2)
+            c1.metric("Engagement Level", result.get(
+                "engagement_level", "N/A").title())
+            c2.metric(
+                "Outcome Risk", f"{risk_color} {result.get('outcome_risk_flag', 'N/A').title()}")
+            st.markdown(
+                f"**🎯 Recommended Focus:** {result.get('recommended_focus', 'N/A')}")
             patterns = row.get("notable_linguistic_patterns")
             if patterns and isinstance(patterns, list):
                 st.markdown("**Linguistic Patterns:**")
