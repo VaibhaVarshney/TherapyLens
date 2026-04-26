@@ -1,6 +1,6 @@
 # 🧠 TherapyLens - Clinical NLP Pipeline for Therapy Transcript Analysis
 
-> An end-to-end NLP pipeline that analyzes de-identified therapy transcripts using emotion detection, topic modeling, engagement signal extraction, LLM-powered clinical summarization, and demographic bias auditing — deployed as an interactive Streamlit dashboard.
+> An end-to-end NLP pipeline that analyzes de-identified therapy transcripts using emotion detection, topic modeling, engagement signal extraction, LLM-powered clinical summarization, and demographic bias auditing - deployed as an interactive Streamlit dashboard.
 
 [![Python](https://img.shields.io/badge/Python-3.10+-blue?style=flat-square&logo=python)](https://python.org)
 [![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-red?style=flat-square&logo=streamlit)](https://streamlit.io)
@@ -11,9 +11,9 @@
 
 ## 📌 Overview
 
-TherapyLens is a research-grade NLP system designed to surface clinically meaningful signals from therapy session transcripts. It processes transcripts through a modular 6-stage pipeline and visualizes results in an interactive dashboard — with a live inference page where users can input session data and receive real-time LLM-generated clinical summaries.
+TherapyLens is a research-grade NLP system designed to surface clinically meaningful signals from therapy session transcripts. It processes transcripts through a modular 6-stage pipeline and visualizes results in an interactive dashboard - with a live inference page where users can input session data and receive real-time LLM-generated clinical summaries.
 
-**Built as a portfolio project demonstrating applied NLP in mental health — synthetic data only, with a clear architecture for production deployment under HIPAA-compliant conditions.**
+**Built as a portfolio project demonstrating applied NLP in mental health - synthetic data only, with a clear architecture for production deployment under HIPAA-compliant conditions.**
 
 ---
 
@@ -35,13 +35,13 @@ TherapyLens is a research-grade NLP system designed to surface clinically meanin
 
 The Streamlit dashboard includes 7 pages:
 
-- **📊 Overview** — KPIs, session distribution, risk breakdown, engagement by cohort
-- **😔 Sentiment & Emotion** — Cohort sentiment comparisons, emotion radar charts, distribution plots
-- **⚠️ Bias Audit** — Disparity flags, cohort summary table, emotion heatmap
-- **📝 Session Summaries** — Filterable LLM-generated clinical summaries per session
-- **📈 Patient Timeline** — Per-patient longitudinal view of sentiment, severity, and engagement
-- **🗂️ Topic Distribution** — Topic frequency, cohort breakdown, topic × risk heatmap
-- **🧪 Live Session Analysis** — Real-time form input → NLP analysis + Groq LLM inference
+- **📊 Overview** - KPIs, session distribution, risk breakdown, engagement by cohort
+- **😔 Sentiment & Emotion** - Cohort sentiment comparisons, emotion radar charts, distribution plots
+- **⚠️ Bias Audit** - Disparity flags, cohort summary table, emotion heatmap
+- **📝 Session Summaries** - Filterable LLM-generated clinical summaries per session
+- **📈 Patient Timeline** - Per-patient longitudinal view of sentiment, severity, and engagement
+- **🗂️ Topic Distribution** - Topic frequency, cohort breakdown, topic × risk heatmap
+- **🧪 Live Session Analysis** - Real-time form input → NLP analysis + Groq LLM inference
 
 ---
 
@@ -81,9 +81,9 @@ python run_pipeline.py
 ```
 
 Outputs are saved to `outputs/`:
-- `results.csv` — full dataset (12 features × ~158 rows)
-- `bias_audit.json` — cohort disparity report
-- `synthesis.json` — LLM-generated session summaries
+- `results.csv` - full dataset (12 features × ~158 rows)
+- `bias_audit.json` - cohort disparity report
+- `synthesis.json` - LLM-generated session summaries
 
 ### 6. Launch the dashboard
 ```bash
@@ -123,7 +123,7 @@ TherapyLens/
 
 ---
 
-## 🔬 NLP Pipeline — Technical Details
+## 🔬 NLP Pipeline - Technical Details
 
 ### Sentiment & Emotion Detection
 Lexicon-based scoring over patient dialogue using keyword matching across 5 emotion categories. Sentiment scored as `(positive_hits - negative_hits) / total_hits` yielding a [-1, +1] range.
@@ -158,7 +158,7 @@ Structured prompt engineering with Groq LLaMA-3.3-70b. Each session prompt inclu
 ### Bias Audit
 Computes mean sentiment per cohort and flags pairs exceeding a 0.15 disparity threshold. 
 
-**Finding:** Veteran vs adult general sentiment gap = **0.172** — flagged for clinical review.
+**Finding:** Veteran vs adult general sentiment gap = **0.172** - flagged for clinical review.
 
 **Production upgrade:** Add Welch's t-test with Bonferroni correction for statistical significance, effect size reporting, and intersectional cohort analysis.
 
@@ -166,11 +166,11 @@ Computes mean sentiment per cohort and flags pairs exceeding a 0.15 disparity th
 
 ## 🔒 Ethics & Clinical Considerations
 
-- **Synthetic data only** — no real PHI at any stage. All transcripts are programmatically generated.
-- **HIPAA pathway documented** — production deployment requires PII anonymization via [Microsoft Presidio](https://microsoft.github.io/presidio/) before any text reaches an NLP model
-- **IRB requirement acknowledged** — any use of real therapy transcripts requires Institutional Review Board approval
-- **LLM outputs are decision-support only** — clinical summaries generated by LLaMA-3.3-70b must be reviewed by a licensed clinician before informing any patient care decision
-- **Bias auditing built-in** — cohort disparity flags are a first-class output of the pipeline, not an afterthought
+- **Synthetic data only** - no real PHI at any stage. All transcripts are programmatically generated.
+- **HIPAA pathway documented** - production deployment requires PII anonymization via [Microsoft Presidio](https://microsoft.github.io/presidio/) before any text reaches an NLP model
+- **IRB requirement acknowledged** - any use of real therapy transcripts requires Institutional Review Board approval
+- **LLM outputs are decision-support only** - clinical summaries generated by LLaMA-3.3-70b must be reviewed by a licensed clinician before informing any patient care decision
+- **Bias auditing built-in** - cohort disparity flags are a first-class output of the pipeline, not an afterthought
 
 ---
 
@@ -208,7 +208,7 @@ anonymizer = AnonymizerEngine()
 ```json
 {
   "disparity_flags": [
-    "Sentiment gap between veteran and adult_general: 0.172 (threshold=0.15) — warrants review"
+    "Sentiment gap between veteran and adult_general: 0.172 (threshold=0.15) - warrants review"
   ],
   "cohort_summary": {
     "veteran":      { "n_sessions": 46, "mean_sentiment": -0.401, "dominant_emotion": "neutral" },
@@ -259,8 +259,8 @@ Masters Student | NLP & Clinical AI
 
 ## 📄 License
 
-MIT License — free to use, modify, and distribute with attribution.
+MIT License - free to use, modify, and distribute with attribution.
 
 ---
 
-*Built with a focus on responsible AI in mental health — because the people in these transcripts deserve systems that are accurate, fair, and transparent.*
+*Built with a focus on responsible AI in mental health - because the people in these transcripts deserve systems that are accurate, fair, and transparent.*
