@@ -1,5 +1,5 @@
 """
-TherapyLens — Streamlit Dashboard
+TherapyLens - Streamlit Dashboard
 Run with: streamlit run dashboard/app.py
 """
 import streamlit as st
@@ -93,7 +93,7 @@ with st.sidebar:
 # PAGE: OVERVIEW
 # ══════════════════════════════════════════════════════════════════════════════
 if page == "📊 Overview":
-    st.title("📊 TherapyLens — Pipeline Overview")
+    st.title("📊 TherapyLens - Pipeline Overview")
     st.caption(
         "End-to-end NLP analysis of synthetic de-identified therapy transcripts")
     st.divider()
@@ -206,7 +206,7 @@ elif page == "😔 Sentiment & Emotion":
     st.plotly_chart(fig3, use_container_width=True)
 
     st.divider()
-    st.markdown('<p class="section-title">Emotion Radar — Cohort Averages</p>',
+    st.markdown('<p class="section-title">Emotion Radar - Cohort Averages</p>',
                 unsafe_allow_html=True)
     emotions = ["anxiety", "sadness", "depression", "progress", "neutral"]
     fig4 = go.Figure()
@@ -231,14 +231,14 @@ elif page == "😔 Sentiment & Emotion":
 # PAGE: BIAS AUDIT
 # ══════════════════════════════════════════════════════════════════════════════
 elif page == "⚠️ Bias Audit":
-    st.title("⚠️ Bias Audit — Cohort Disparity Report")
+    st.title("⚠️ Bias Audit - Cohort Disparity Report")
     st.divider()
 
     # Disparity flags
     flags = audit["disparity_flags"]
     if flags:
         st.error(
-            f"**{len(flags)} disparity flag(s) detected** — manual clinical review recommended")
+            f"**{len(flags)} disparity flag(s) detected** - manual clinical review recommended")
         for flag in flags:
             st.warning(f"🚩 {flag}")
     else:
@@ -499,7 +499,7 @@ elif page == "🧪 Live Session Analysis":
     load_dotenv()
 
     st.title("🧪 Live Session Analysis")
-    st.caption("Fill in the form below — the pipeline runs NLP analysis and calls the Groq LLM to generate a real clinical summary.")
+    st.caption("Fill in the form below - the pipeline runs NLP analysis and calls the Groq LLM to generate a real clinical summary.")
     st.divider()
 
     # ── Inline NLP helpers (mirrors pipeline logic, no Session object needed) ──
